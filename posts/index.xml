@@ -13,8 +13,13 @@
         <pubDate>Mon, 25 Nov 2024 11:09:10 +0100</pubDate>
         
         <guid>https://samuelgouby.github.io/posts/mapresentation/</guid>
-        <description>&lt;p&gt;Mes étude: blblbbl&lt;/p&gt;
-&lt;p&gt;Mes compétences: dsfd,dldf&lt;/p&gt;</description>
+        <description>&lt;p&gt;En apprendre plus sur moi:&lt;/p&gt;
+&lt;p&gt;🎓 Mes études
+Je suis actuellement en 2ème année de BUT Informatique à Montpellier dans un parcours Développement d’applications communicantes et sécurisées.&lt;/p&gt;
+&lt;p&gt;🏆 Mon objectif
+Poursuivre mes études avec un Master en Cybersécurité pour d&amp;rsquo;approfondir les notions de sécurité vues lors de mon BUT afin de travailler dans ce domaine qui me plait tant.&lt;/p&gt;
+&lt;p&gt;🖥️ Mes compétences techniques
+Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu renforcer à travers divers projets dans mon cursus. En accord avec mon objectif, je développe des compétences en système et réseaux, tel que l’utilisation de Linux, la virtualisation, la maîtrise du C, la communication entre machine. Enfin je sais également développer dans d’autres langages orientés web comme HTML, CSS et PHP.&lt;/p&gt;</description>
       </item>
     
   </channel>
