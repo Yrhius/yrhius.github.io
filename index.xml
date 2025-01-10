@@ -40,7 +40,7 @@ Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu
 
   &lt;h2 id=&#34;présentation-du-jeu&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#présentation-du-jeu&#34; title=&#39;Anchor for: Présentation du jeu.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Présentation du jeu&lt;/h2&gt; 
 
-&lt;p&gt;Trains est un jeu de société complexe mélant jeu de plateau et jeu de carte. Chaque joueur incarne une compagnie fériovière qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire tel que des immeubles !&lt;/p&gt;</description>
+&lt;p&gt;Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !&lt;/p&gt;</description>
       </item>
     
       <item>
@@ -58,7 +58,11 @@ Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu
         <pubDate>Mon, 25 Nov 2024 11:09:10 +0100</pubDate>
         
         <guid>https://yrhius.github.io/posts/votomatic/</guid>
-        <description></description>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34; title=&#39;Anchor for: Introduction.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Introduction&lt;/h2&gt; 
+
+&lt;p&gt;De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement.
+Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous. Il serait alors sensé que de vouloir une application créée spécialement pour soi, répondant précisément à nos exigences. C’est là le but de notre projet, créer une application de sondage anonyme selon des critères bien définis.
+Notre projet permet donc de répondre au besoin de notre client. Celui-ci est un patron d’entreprise, il souhaite pouvoir récolter les avis de ses employés sur certaines questions/décisions importantes concernant l’entreprise. Il aimerait pour cela disposer d’une application permettant de gérer ses questions sous forme de votes cryptés et sécurisés. C’est pourquoi il a fait appel à notre équipe de développeurs.&lt;/p&gt;</description>
       </item>
     
   </channel>
