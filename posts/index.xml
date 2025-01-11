@@ -49,7 +49,8 @@ Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu
         <pubDate>Mon, 25 Nov 2024 11:09:10 +0100</pubDate>
         
         <guid>https://yrhius.github.io/posts/basededonn%C3%A9es/</guid>
-        <description></description>
+        <description>&lt;p&gt;Vous êtes-vous déjà demandé à quoi ressemble la base de données d&amp;rsquo;une grande entreprise mondiale ? Nous oui !&lt;/p&gt;
+&lt;p&gt;Lors de ma première année de BUT informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de creuser cette question à travers le cas de spotify. En effet, nous avons reçu plusieurs fichiers Excel contenant des milliers d&amp;rsquo;information provenant de la base de données de Spotify ou plus exactement des fausse donnée qui pourrait venir de cette entreprise. Avec l&amp;rsquo;aide de trois autres camarades, nous avons imaginé et conçu une base de données permettant de contenir ces données de la façon la plus optimisée. Nous avons ensuite inséré les données, écrit une succession de requêtes pour récolter des informations sur cette masse donnée. Enfin, nous avons exploité les données récupérées par nos requêtes pour faire diverses statistiques sur Spotify et ses utilisateurs.&lt;/p&gt;</description>
       </item>
     
       <item>
