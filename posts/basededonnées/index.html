@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.141.0">
+<meta name="generator" content="Hugo 0.142.0">
 <meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
 
 
@@ -112,7 +112,7 @@
         "@type": "Person",
         "name": "",
         
-        
+        "sameAs": ["https://github.com/\u003cusername\u003eyrhius","https://www.linkedin.com/in/\u003cusername\u003esamuel-gouby"]
       }
     }
   </script>
@@ -152,6 +152,8 @@
 
 
 
+<link rel="me" href="https://github.com/%3cusername%3eyrhius">
+<link rel="me" href="https://www.linkedin.com/in/%3cusername%3esamuel-gouby">
 
 
 
@@ -258,7 +260,7 @@
 
 
 
-  <h2 id="analyse-et-conception"><a class="anchor" href="#analyse-et-conception" title='Anchor for: Analyse et Conception.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Analyse et Conception</h2> 
+  <h2 id="analyse-et-conception"><a class="anchor" href="#analyse-et-conception" title='Anchor for: Analyse et Conception.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Analyse et Conception</h2> 
 
 <p>Avant de se lancer dans la création de la base de données, il nous fallait trouver comment relier les informations entre elles, quelle serait la structure de notre base de données. Pour cela, nous avons fait un brainstorming important puis nous avons créé un modèle Entité/Association plutôt satisfaisant. Des petites modifications ont ensuite été apportées lors du développement.</p>
 <p>Les informations présentes dans les fichiers étaient de types très variés. De fait, Spotify gère des musique, des artistes et des utilisateurs qui ont tous, plusieurs informations, qui leurs sont propre. Par exemple, un utilisateur a un identifiant, un pseudo, un genre, une date de naissance, mais on connaît également le dernier morceau qu&rsquo;il a écouté et où il s&rsquo;est arrêté dans cette musique. Il peut être un utilisateur premium, avoir des playlists, des dossiers, suivre des artistes, avoir des amis sur l&rsquo;application, bloquer d&rsquo;autre utilisateur et encore bien d&rsquo;autres choses. Au final, nous avions pas moins de 28 tables différentes dont plus d&rsquo;un quart ont plus de 4 colonnes. Voici le modèle EA de notre BDD :</p>
@@ -314,7 +316,7 @@
 
 
 
-  <h2 id="développement"><a class="anchor" href="#développement" title='Anchor for: Développement.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Développement</h2> 
+  <h2 id="développement"><a class="anchor" href="#développement" title='Anchor for: Développement.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Développement</h2> 
 
 <p>Une fois la conception terminée, nous avons créé la base de données. Le script de création de table fait plusieurs centaines de lignes de code, soit pas moins de 8 pages de Google doc ! Le développement de la BDD était assez facile, un seul problème subsister la gestion des playlist et des dossiers. Ce problème est assez connu et peut être résolu grâce au pattern décorateur du Gang of Four (GOF) que j&rsquo;ai pu apprendre plus tard. Cependant, au moment du projet je ne connaissais aucun paterne du GOF, ce petit problème m&rsquo;a donc donné du fil à retordre mais j&rsquo;ai fini par trouver la solution, sans même le savoir je venais d&rsquo;utiliser mon premier pattern du GOF.</p>
 <p>L&rsquo;insertion des données n&rsquo;a pas été évidente non plus. Les tableurs comprenaient pour certains des milliers de lignes, il nous aurait fallu des heures pour insérer toutes les données une par une. Pour remédier à cela, nous avons utilisé Debeaver et nous avons créé des vues temporaire, grâce à l&rsquo;application la transformation des fichier Excel en vue sql était facile et rapide. Il nous fallait ensuite insérer les données dans nos tables depuis nos vues matérielles. Bien que ce procédé réduise le temps et le nombre de ligne de code, l&rsquo;insertion des données comprend pas moins de 5 pages.</p>
@@ -327,7 +329,7 @@
 
 
 
-  <h2 id="statistiques"><a class="anchor" href="#statistiques" title='Anchor for: Statistiques.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Statistiques</h2> 
+  <h2 id="statistiques"><a class="anchor" href="#statistiques" title='Anchor for: Statistiques.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Statistiques</h2> 
 
 <p>Nous avons ensuite pu écrire quelques requêtes intéressantes plus ou moins compliquées pour extraites des informations sur notre BDD. Nous avons pu récupérer toutes les informations concernant chacun des morceaux, les morceaux les plus écoutés par un utilisateur ou encore la note médiane des notes des morceaux.</p>
 <p>Grâce à ces informations, nous avons pu faire les graphiques suivants :</p>
@@ -449,7 +451,7 @@
 
 
 <div class="req-js">
-  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#4a86e8" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#4a86e8"><option value="#1f676b"><option value="#f3a530"><option value="#902b37"><option value="#1dbc91"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"></datalist>
+  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#4a86e8" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#4a86e8"><option value="#1f676b"><option value="#f3a530"><option value="#902b37"><option value="#1dbc91"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"></datalist>
 </div>
 
 
