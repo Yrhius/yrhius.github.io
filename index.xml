@@ -61,6 +61,27 @@
       </item>
     
       <item>
+        <title>Mon portfolio d&#39;apprentissage</title>
+        <link>http://localhost:1313/posts/apprentissage/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/posts/apprentissage/</guid>
+        <description>&lt;p&gt;Dans cette partie, vous trouverez les divers apprentissages critiques que j’ai pu développer en lien avec ma formation. Ces apprentissages sont essentiels pour valider mon diplôme et devenir un informaticien compétent. Ils ont pu être appris et mis en pratique lors de projets universitaires, mais également en entreprise.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  &lt;h3 id=&#34;compétence-2-optimiser-sélectionner-les-algorithme-adéquats-pour-répondreà-un-problème-donné&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#compétence-2-optimiser-sélectionner-les-algorithme-adéquats-pour-répondreà-un-problème-donné&#34; title=&#39;Anchor for: Compétence 2: Optimiser, Sélectionner les algorithme adéquats pour répondre	à un problème donné.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Compétence 2: Optimiser, Sélectionner les algorithme adéquats pour répondre	à un problème donné&lt;/h3&gt; 
+
+&lt;p&gt;L’acquisition de cette compétence permet de différencier un simple codeur d’un véritable développeur. Depuis la première année du BUT, je suis sensible à la qualité de mon code et soucieux de faire un programme compréhensible, lisible et efficace. J’ai pu affiner cette compétence à travers divers apprentissages critiques.&lt;/p&gt;</description>
+      </item>
+    
+      <item>
         <title>Mon Stage au Pole numérique et données de la ville de Montpellier</title>
         <link>http://localhost:1313/posts/stage/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
