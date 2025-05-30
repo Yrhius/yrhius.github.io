@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio Samuel GOUBY</title>
-    <link>http://localhost:1313/</link>
+    <link>https://yrhius.github.io/</link>
     <description></description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 25 Dec 2024 11:09:10 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Dec 2024 11:09:10 +0100</lastBuildDate><atom:link href="https://yrhius.github.io/index.xml" rel="self" type="application/rss+xml" />
       <item>
         <title>Me connaître</title>
-        <link>http://localhost:1313/posts/mapresentation/</link>
+        <link>https://yrhius.github.io/posts/mapresentation/</link>
         <pubDate>Wed, 25 Dec 2024 11:09:10 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/mapresentation/</guid>
+        <guid>https://yrhius.github.io/posts/mapresentation/</guid>
         <description>&lt;p&gt;En apprendre plus sur moi:&lt;/p&gt;
 &lt;p&gt;🎓 Mes études
 Je suis actuellement en 2ème année de BUT Informatique à Montpellier dans un parcours Développement d’applications communicantes et sécurisées.&lt;/p&gt;
@@ -24,10 +24,10 @@ Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu
     
       <item>
         <title>Coder le jeu de société Trains en Java</title>
-        <link>http://localhost:1313/posts/trains/</link>
+        <link>https://yrhius.github.io/posts/trains/</link>
         <pubDate>Mon, 25 Nov 2024 11:09:10 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/trains/</guid>
+        <guid>https://yrhius.github.io/posts/trains/</guid>
         <description>&lt;p&gt;Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de coder Trains en binome avec un collège.&lt;/p&gt;
 
 
@@ -38,28 +38,28 @@ Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu
 
 
 
-  &lt;h2 id=&#34;présentation-du-jeu&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#présentation-du-jeu&#34; title=&#39;Anchor for: Présentation du jeu.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Présentation du jeu&lt;/h2&gt; 
+  &lt;h2 id=&#34;présentation-du-jeu&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#présentation-du-jeu&#34; title=&#39;Anchor for: Présentation du jeu.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Présentation du jeu&lt;/h2&gt; 
 
 &lt;p&gt;Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !&lt;/p&gt;</description>
       </item>
     
       <item>
         <title>La base de données de Spotify</title>
-        <link>http://localhost:1313/posts/basededonn%C3%A9es/</link>
+        <link>https://yrhius.github.io/posts/basededonn%C3%A9es/</link>
         <pubDate>Mon, 25 Nov 2024 11:09:10 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/basededonn%C3%A9es/</guid>
+        <guid>https://yrhius.github.io/posts/basededonn%C3%A9es/</guid>
         <description>&lt;p&gt;Vous êtes-vous déjà demandé à quoi ressemble la base de données d&amp;rsquo;une grande entreprise mondiale ? Nous oui !&lt;/p&gt;
 &lt;p&gt;Lors de ma première année de BUT informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de creuser cette question à travers le cas de spotify. En effet, nous avons reçu plusieurs fichiers Excel contenant des milliers d&amp;rsquo;information provenant de la base de données de Spotify ou plus exactement des fausse donnée qui pourrait venir de cette entreprise. Avec l&amp;rsquo;aide de trois autres camarades, nous avons imaginé et conçu une base de données permettant de contenir ces données de la façon la plus optimisée. Nous avons ensuite inséré les données, écrit une succession de requêtes pour récolter des informations sur cette masse donnée. Enfin, nous avons exploité les données récupérées par nos requêtes pour faire diverses statistiques sur Spotify et ses utilisateurs.&lt;/p&gt;</description>
       </item>
     
       <item>
         <title>Une application de vote</title>
-        <link>http://localhost:1313/posts/votomatic/</link>
+        <link>https://yrhius.github.io/posts/votomatic/</link>
         <pubDate>Mon, 25 Nov 2024 11:09:10 +0100</pubDate>
         
-        <guid>http://localhost:1313/posts/votomatic/</guid>
-        <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34; title=&#39;Anchor for: Introduction.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Introduction&lt;/h2&gt; 
+        <guid>https://yrhius.github.io/posts/votomatic/</guid>
+        <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34; title=&#39;Anchor for: Introduction.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Introduction&lt;/h2&gt; 
 
 &lt;p&gt;De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement.
 Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous. Il serait alors sensé que de vouloir une application créée spécialement pour soi, répondant précisément à nos exigences. C’est là le but de notre projet, créer une application de sondage anonyme selon des critères bien définis.
