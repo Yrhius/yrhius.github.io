@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="dark">
+  <head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Hugo 0.147.6">
+<meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
+
+
+<title>5. Projet: Site de Vente en Php</title>
+
+
+
+
+
+<meta name="robots" content="index follow">
+
+
+
+
+  
+    <link rel="canonical" href="https://yrhius.github.io/posts/siteventephp/">
+  
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Portfolio Samuel GOUBY">
+<meta property="og:title" content="5. Projet: Site de Vente en Php">
+
+  <meta property="og:url" content="https://yrhius.github.io/posts/siteventephp/">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta property="og:type" content="article">
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="theme-color" content="#222">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebSite",
+        "@id": "https://yrhius.github.io/"
+      },
+      "headline": "5. Projet: Site de Vente en Php",
+      "description": "",
+      
+      "url": "https://yrhius.github.io/posts/siteventephp/",
+      "inLanguage": "en",
+      
+      
+      "wordCount" : "434",
+      "publisher": {
+        "@type": "Person",
+        "name": ""
+      },
+      "author": {
+        "@type": "Person",
+        "name": "",
+        
+        "sameAs": ["https://github.com/yrhius","https://www.linkedin.com/in/samuel-gouby"]
+      }
+    }
+  </script>
+
+
+
+
+
+
+<link rel="stylesheet" href="https://yrhius.github.io/css/main.min.6d13374744675dde1cf540e161977fd825c4ea15624061069e20e04fc8cdbf4e.css" integrity="sha256-bRM3R0RnXd4c9UDhYZd/2CXE6hViQGEGniDgT8jNv04=" crossorigin="anonymous">
+
+
+
+<noscript>
+
+  
+  
+
+  
+    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: light)">
+  
+
+  
+  <link rel="stylesheet" href="https://yrhius.github.io/css/noscript.min.d9a821bc75ee181f388c95acd3882f6afa28856db57b4bf1644f978495f2e376.css" integrity="sha256-2aghvHXuGB84jJWs04gvavoohW21e0vxZE&#43;XhJXy43Y=" crossorigin="anonymous">
+
+</noscript>
+
+
+
+<link rel="preload" href="/fonts/open-sans-v34-latin-700.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="/fonts/open-sans-v34-latin-italic.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="/fonts/open-sans-v34-latin-regular.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="/fonts/oswald-v29-latin-700.woff2" as="font" crossorigin="anonymous">
+
+
+
+
+
+<link rel="me" href="https://github.com/yrhius">
+<link rel="me" href="https://www.linkedin.com/in/samuel-gouby">
+
+
+
+<script src="https://yrhius.github.io/js/main.66f76ab17d847cc7b1a7c09ba268a1c6afe55b35d551101bda8ff79888b3df1a.js" integrity="sha256-ZvdqsX2EfMexp8Cbomihxq/lWzXVURAb2o/3mIiz3xo=" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <header>
+      
+
+  <a href="/">Portfolio Samuel GOUBY</a>
+
+
+
+
+
+    </header>
+
+    <div class="filler">
+      
+
+  <main>
+    <article data-pagefind-body>
+      <header>
+        
+        <h1>5. Projet: Site de Vente en Php</h1>
+
+        
+        
+        
+        
+      </header>
+    
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 id="introduction"><a class="anchor" href="#introduction" title='Anchor for: Introduction.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Introduction</h2> 
+
+<p>Lors de ma formation, j&rsquo;ai eu la chance de créer mon propre site web dynamique à l&rsquo;aide de Php. Avec deux autres camarades, j&rsquo;ai imaginé et conçu un site de vente en ligne de sweats. Le site a une partie back-end avec une base de données contenant les informations des marchandises et une partie front-end qui gère l&rsquo;affichage dynamique des informations.</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="une-base-de-donnée"><a class="anchor" href="#une-base-de-donnée" title='Anchor for: Une base de donnée.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Une base de donnée</h2> 
+
+<p>La base de données est composé de 6 tables:</p>
+<p>Taille: Contient les différentes tailles possible avec le sigle et la description (XL, très grand)<br>
+Sweat: Contient un code, un nom, une couleur et un prix<br>
+Utilisateur: Contient toutes les infos utiles de l&rsquo;utilisateur tel que login, nom, prenom, mot de passe haché, etc<br>
+Stock: Indique pour un sweat et une taille donnée le nombre d&rsquo;article disponible<br>
+Commande: Associe un numéro de commande à une date et à un utilisateur<br>
+Lignecommande: Contient un sweat, une taille et une quantite d&rsquo;une ligne d&rsquo;une commande</p>
+<p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+        <img
+          
+          loading="lazy"
+          src="/images/BDD_E-A_Php.png"
+          alt="Modele E/A"
+        />
+      
+    
+    
+  
+  
+
+</p>
+<p>Les interactions avec la BD sont gérées par le php. Le site permet aux administrateurs de gérer les stocks, en ajoutant de nouvelles taille de nouveau sweat et en augmenter le stock d&rsquo;un sweat donné avec une taille donnée, mais également de gérer les utilisateurs. Coté utilisateur, on peut ajouter des sweats à notre panier et passer commande ce qui diminue les stocks en BD.</p>
+<p>Les requêtes vers la BD sont donc variées. La majorité des informations des requêtes sont reçues via des formulaires html et envoyer à travers des requêtes post, puis le fichier php adéquat créé une requête l&rsquo;envoie à la BD. Une fois que le BD à envoyé sa réponse php la traite et gère l&rsquo;affichage, mais nous parlerons de ce point après.
+Nous avons tenu à avoir un site sécurisé au maximum ce qui implique de protéger notre base de données.</p>
+<p>Premièrement, les mots de passe des utilisateurs sont haché grâce au protocole sha256 et stocké chiffré dans la bdd ce qui assure la confidentialité des informations de nos clients.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+        <img
+          
+          loading="lazy"
+          src="/images/Mdp_Hash_Php.png"
+          alt="fonction de hashage"
+        />
+      
+    
+    
+  
+  
+
+</p>
+<p>Deuxièmement, notre site est protégé face aux injections sql. En effet, notre script php fait des requêtes préparées et utilise des fonctions pour échapper les caractères spéciaux html, php et sql.</p>
+<p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+        <img
+          
+          loading="lazy"
+          src="/images/Requete_Preparee_Php.png"
+          alt="requetes préparées"
+        />
+      
+    
+    
+  
+  
+
+</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="laffichage"><a class="anchor" href="#laffichage" title='Anchor for: L&rsquo;affichage.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> L&rsquo;affichage</h2> 
+
+<p>Grâce au php, les informations de la BD sont traité et utilisé afin de produire un affichage ergonomique. Nous avons choisi un css épuré et propre pour ne pas surcharger de couleurs. Chaque sweat est affiché avec une image permettant de visualiser le produit.</p>
+<p>Voici quelques images du site web:</p>
+<p>La page des sweats:</p>
+<p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+        <img
+          
+          loading="lazy"
+          src="/images/Affichage_Site_Php.png"
+          alt="page sweats"
+        />
+      
+    
+    
+  
+  
+
+</p>
+<p>Les infos d&rsquo;un sweat et le formulaire d&rsquo;ajout au panier:</p>
+<p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+        <img
+          
+          loading="lazy"
+          src="/images/Affichage_Ajout_Php.png"
+          alt="page détail sweat"
+        />
+      
+    
+    
+  
+  
+
+</p>
+<p>Le formulaire de création d&rsquo;un compte:</p>
+<p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+    
+    
+      
+      
+        <img
+          
+          loading="lazy"
+          src="/images/Affichage_Formulaire_Php.png"
+          alt="page création de compte"
+        />
+      
+    
+    
+  
+  
+
+</p>
+
+
+
+    </article>
+  </main>
+
+
+    </div>
+    
+    <footer>
+      
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="req-js">
+  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#4a86e8" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#4a86e8"><option value="#1f676b"><option value="#f3a530"><option value="#902b37"><option value="#1dbc91"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"></datalist>
+</div>
+
+
+
+
+
+    </footer>
+
+    
+    
+
+  </body>
+</html>
