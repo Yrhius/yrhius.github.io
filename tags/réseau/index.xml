@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Réseau on Portfolio Samuel GOUBY</title>
+    <link>http://localhost:1313/tags/r%C3%A9seau/</link>
+    <description>Recent content in Réseau on Portfolio Samuel GOUBY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/r%C3%A9seau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: Une application de vote</title>
+      <link>http://localhost:1313/posts/votomatic/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/votomatic/</guid>
+      <description>Introduction De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement. Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous.</description>
+    </item>
+    <item>
+      <title>Mon Stage au Pole numérique et données de la ville de Montpellier</title>
+      <link>http://localhost:1313/posts/stage/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/stage/</guid>
+      <description>Introduction: Dans le cadre de ma formation, j’ai eu la chance de réaliser un stage au sein de la collectivité territoriale Montpellier Méditerranée Métropole. Ce stage a duré 8 semaines, du 3 février au 28 mars 2025, j’ai pu évoluer en tant que technicien réseaux et système. En effet, la ville de Montpellier dispose d’un Pôle Numérique et Données(PND) composé de diverses couches métiers allant de l&amp;rsquo;application au réseau en passant par la télécom, le système, et la sécurité.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BDD on Portfolio Samuel GOUBY</title>
+    <link>http://localhost:1313/tags/bdd/</link>
+    <description>Recent content in BDD on Portfolio Samuel GOUBY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bdd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: Une application de vote</title>
+      <link>http://localhost:1313/posts/votomatic/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/votomatic/</guid>
+      <description>Introduction De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement. Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous.</description>
+    </item>
+    <item>
+      <title>Projet: Site de Vente en Php</title>
+      <link>http://localhost:1313/posts/siteventephp/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/siteventephp/</guid>
+      <description>Introduction Lors de ma formation, j&amp;rsquo;ai eu la chance de créer mon propre site web dynamique à l&amp;rsquo;aide de Php. Avec deux autres camarades, j&amp;rsquo;ai imaginé et conçu un site de vente en ligne de sweats. Le site a une partie back-end avec une base de données contenant les informations des marchandises et une partie front-end qui gère l&amp;rsquo;affichage dynamique des informations.&#xA;Analyse Les fonctionnalités nécessaires sont les suivantes :</description>
+    </item>
+    <item>
+      <title>Projet: La base de données de Spotify</title>
+      <link>http://localhost:1313/posts/basededonn%C3%A9es/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/basededonn%C3%A9es/</guid>
+      <description>Vous êtes-vous déjà demandé à quoi ressemble la base de données d&amp;rsquo;une grande entreprise mondiale ? Nous oui !&#xA;Lors de ma première année de BUT informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de creuser cette question à travers le cas de spotify. En effet, nous avons reçu plusieurs fichiers Excel contenant des milliers d&amp;rsquo;information provenant de la base de données de Spotify ou plus exactement des fausse donnée qui pourrait venir de cette entreprise.</description>
+    </item>
+  </channel>
+</rss>

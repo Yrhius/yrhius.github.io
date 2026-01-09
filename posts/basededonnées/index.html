@@ -1,457 +1,343 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="dark">
-  <head prefix="og: http://ogp.me/ns#">
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.147.6">
-<meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 1.1rem;
+        }
+    </style>
 
-
-<title>7. Projet: La base de données de Spotify</title>
-
-
-
-
-
-<meta name="robots" content="index follow">
-
-
-
-
-  
-    <link rel="canonical" href="https://yrhius.github.io/posts/basededonn%C3%A9es/">
-  
-
-
-
-
-
-
-
-
-<meta property="og:site_name" content="Portfolio Samuel GOUBY">
-<meta property="og:title" content="7. Projet: La base de données de Spotify">
-
-  <meta property="og:url" content="https://yrhius.github.io/posts/basededonn%C3%A9es/">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <meta property="og:type" content="article">
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="theme-color" content="#222">
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebSite",
-        "@id": "https://yrhius.github.io/"
-      },
-      "headline": "7. Projet: La base de données de Spotify",
-      "description": "",
-      
-      "url": "https://yrhius.github.io/posts/basededonn%C3%A9es/",
-      "inLanguage": "en",
-      
-      
-      "wordCount" : "596",
-      "publisher": {
-        "@type": "Person",
-        "name": ""
-      },
-      "author": {
-        "@type": "Person",
-        "name": "",
-        
-        "sameAs": ["https://github.com/yrhius","https://www.linkedin.com/in/samuel-gouby"]
-      }
-    }
-  </script>
-
-
-
-
-
-
-<link rel="stylesheet" href="https://yrhius.github.io/css/main.min.6d13374744675dde1cf540e161977fd825c4ea15624061069e20e04fc8cdbf4e.css" integrity="sha256-bRM3R0RnXd4c9UDhYZd/2CXE6hViQGEGniDgT8jNv04=" crossorigin="anonymous">
-
-
-
-<noscript>
-
-  
-  
-
-  
-    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: light)">
-  
-
-  
-  <link rel="stylesheet" href="https://yrhius.github.io/css/noscript.min.d9a821bc75ee181f388c95acd3882f6afa28856db57b4bf1644f978495f2e376.css" integrity="sha256-2aghvHXuGB84jJWs04gvavoohW21e0vxZE&#43;XhJXy43Y=" crossorigin="anonymous">
-
-</noscript>
-
-
-
-<link rel="preload" href="/fonts/open-sans-v34-latin-700.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-italic.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-regular.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/oswald-v29-latin-700.woff2" as="font" crossorigin="anonymous">
-
-
-
-
-
-<link rel="me" href="https://github.com/yrhius">
-<link rel="me" href="https://www.linkedin.com/in/samuel-gouby">
-
-
-
-<script src="https://yrhius.github.io/js/main.66f76ab17d847cc7b1a7c09ba268a1c6afe55b35d551101bda8ff79888b3df1a.js" integrity="sha256-ZvdqsX2EfMexp8Cbomihxq/lWzXVURAb2o/3mIiz3xo=" crossorigin="anonymous"></script>
-
-  </head>
-
-  <body>
-
-    <header>
-      
-
-  <a href="/">Portfolio Samuel GOUBY</a>
-
-
-
-
-
-    </header>
-
-    <div class="filler">
-      
-
-  <main>
-    <article data-pagefind-body>
-      <header>
-        
-        <h1>7. Projet: La base de données de Spotify</h1>
-
-        
-        
-        
-        
-      </header>
     
-      
-      
+    
+    
+    
+    
+    
 
+    
+    <title>Projet: La base de données de Spotify</title>
+    <meta name="description" content="conception et réalisation d&#39;une base de donnée capable de contenir des information extraites de spotify">
+    <meta name="keywords" content='portfolio, informatique, système, réseau, Samuel, Gouby, étudiant, Montpellier, BDD, Modélisation, math'>
 
+    <meta property="og:url" content="http://localhost:1313/posts/basededonn%C3%A9es/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projet: La base de données de Spotify">
+    <meta property="og:description" content="conception et réalisation d&#39;une base de donnée capable de contenir des information extraites de spotify">
+    <meta property="og:image" content="http://localhost:1313/images/pdp.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/images/pdp.png">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Projet: La base de données de Spotify">
+    <meta name="twitter:description" content="conception et réalisation d&#39;une base de donnée capable de contenir des information extraites de spotify">
+    <meta property="twitter:domain" content="http://localhost:1313/posts/basededonn%C3%A9es/">
+    <meta property="twitter:url" content="http://localhost:1313/posts/basededonn%C3%A9es/">
+    <meta name="twitter:image" content="http://localhost:1313/images/pdp.png">
 
+    
+    <link rel="canonical" href="http://localhost:1313/posts/basededonn%C3%A9es/">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
 
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
 
+    
+    <script src="/js/bundle.min.a036ebe92c17ea3f0c07761c2135b82bec6f37c8efb7f49ddad1f28c22fc4769.js" integrity="sha256-oDbr6SwX6j8MB3YcITW4K&#43;xvN8jvt/Sd2tHyjCL8R2k="></script>
 
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
 
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/pdp.png' alt="ma photo de profil">
+            </a>
+        </div>
+        
 
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">Portfolio Samuel GOUBY</a>
+        </div>
 
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/aboutme/mapresentation" aria-label="" > About Me </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/" aria-label="" > Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Yrhius" aria-label="github" ><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://www.linkedin.com/in/samuel-gouby" aria-label="linkedin" ><span data-feather='linkedin'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/scolar/apprentissage" aria-label="" > Scolaire </a>
+            </div>
+            
 
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
 
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
 
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/aboutme/mapresentation" > About Me </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/" > Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Yrhius" ><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/samuel-gouby" ><span data-feather='linkedin'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/scolar/apprentissage" > Scolaire </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
 
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Projet: La base de données de Spotify</h1>
 
+        
 
+        
+	
+	
+	
+	
+        
 
+	
 
+	
 
+	
+          <small role="doc-subtitle">conception et réalisation d&#39;une base de donnée capable de contenir des information extraites de spotify</small>
+	
 
+	
+          <p class="post-date">
+              
 
+              1 mars, 2024
 
+              
+          </p>
+	
 
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/bdd">BDD</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/mod%C3%A9lisation">Modélisation</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/math">math</a></li>
+           
+         
+        </ul>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p>Vous êtes-vous déjà demandé à quoi ressemble la base de données d&rsquo;une grande entreprise mondiale ? Nous oui !</p>
+    <div class="post-content">
+        <p>Vous êtes-vous déjà demandé à quoi ressemble la base de données d&rsquo;une grande entreprise mondiale ? Nous oui !</p>
 <p>Lors de ma première année de BUT informatique à Montpellier, j&rsquo;ai eu l&rsquo;occasion de creuser cette question à travers le cas de spotify. En effet, nous avons reçu plusieurs fichiers Excel contenant des milliers d&rsquo;information provenant de la base de données de Spotify ou plus exactement des fausse donnée qui pourrait venir de cette entreprise. Avec l&rsquo;aide de trois autres camarades, nous avons imaginé et conçu une base de données permettant de contenir ces données de la façon la plus optimisée. Nous avons ensuite inséré les données, écrit une succession de requêtes pour récolter des informations sur cette masse donnée. Enfin, nous avons exploité les données récupérées par nos requêtes pour faire diverses statistiques sur Spotify et ses utilisateurs.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="analyse-et-conception"><a class="anchor" href="#analyse-et-conception" title='Anchor for: Analyse et Conception.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Analyse et Conception</h2> 
-
+<h2 id="analyse-et-conception">Analyse et Conception</h2>
 <p>Avant de se lancer dans la création de la base de données, il nous fallait trouver comment relier les informations entre elles, quelle serait la structure de notre base de données. Pour cela, nous avons fait un brainstorming important puis nous avons créé un modèle Entité/Association plutôt satisfaisant. Des petites modifications ont ensuite été apportées lors du développement.</p>
 <p>Les informations présentes dans les fichiers étaient de types très variés. De fait, Spotify gère des musique, des artistes et des utilisateurs qui ont tous, plusieurs informations, qui leurs sont propre. Par exemple, un utilisateur a un identifiant, un pseudo, un genre, une date de naissance, mais on connaît également le dernier morceau qu&rsquo;il a écouté et où il s&rsquo;est arrêté dans cette musique. Il peut être un utilisateur premium, avoir des playlists, des dossiers, suivre des artistes, avoir des amis sur l&rsquo;application, bloquer d&rsquo;autre utilisateur et encore bien d&rsquo;autres choses. Au final, nous avions pas moins de 28 tables différentes dont plus d&rsquo;un quart ont plus de 4 colonnes. Voici le modèle EA de notre BDD :</p>
-<p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/ModeleEA.png"
-          alt="Modele EA"
-        />
-      
-    
-    
-  
-  
-
-</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="développement"><a class="anchor" href="#développement" title='Anchor for: Développement.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Développement</h2> 
-
+<p><img src="/images/ModeleEA.png" alt="Modele EA"></p>
+<h2 id="développement">Développement</h2>
 <p>Une fois la conception terminée, nous avons créé la base de données. Le script de création de table fait plusieurs centaines de lignes de code, soit pas moins de 8 pages de Google doc ! Le développement de la BDD était assez facile, un seul problème subsister la gestion des playlist et des dossiers. Ce problème est assez connu et peut être résolu grâce au pattern décorateur du Gang of Four (GOF) que j&rsquo;ai pu apprendre plus tard. Cependant, au moment du projet je ne connaissais aucun paterne du GOF, ce petit problème m&rsquo;a donc donné du fil à retordre mais j&rsquo;ai fini par trouver la solution, sans même le savoir je venais d&rsquo;utiliser mon premier pattern du GOF.</p>
 <p>L&rsquo;insertion des données n&rsquo;a pas été évidente non plus. Les tableurs comprenaient pour certains des milliers de lignes, il nous aurait fallu des heures pour insérer toutes les données une par une. Pour remédier à cela, nous avons utilisé Debeaver et nous avons créé des vues temporaire, grâce à l&rsquo;application la transformation des fichier Excel en vue sql était facile et rapide. Il nous fallait ensuite insérer les données dans nos tables depuis nos vues matérielles. Bien que ce procédé réduise le temps et le nombre de ligne de code, l&rsquo;insertion des données comprend pas moins de 5 pages.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="statistiques"><a class="anchor" href="#statistiques" title='Anchor for: Statistiques.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Statistiques</h2> 
-
+<h2 id="statistiques">Statistiques</h2>
 <p>Nous avons ensuite pu écrire quelques requêtes intéressantes plus ou moins compliquées pour extraites des informations sur notre BDD. Nous avons pu récupérer toutes les informations concernant chacun des morceaux, les morceaux les plus écoutés par un utilisateur ou encore la note médiane des notes des morceaux.</p>
 <p>Grâce à ces informations, nous avons pu faire les graphiques suivants :</p>
-<p>
+<p><img src="/images/Histogramme_sorties.png" alt="Modele EA"></p>
+<p><img src="/images/Proportion_albums.png" alt="Modele EA"></p>
 
+        
+    </div>
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
     
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Histogramme_sorties.png"
-          alt="Modele EA"
-        />
-      
-    
-    
-  
-  
-
-</p>
-<p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Proportion_albums.png"
-          alt="Modele EA"
-        />
-      
-    
-    
-  
-  
-
-</p>
-
-
-
-    </article>
-  </main>
-
-
+    <div class="prev-post">
+        <p>
+            <a href="/posts/trains/">
+                &#8592;
+                Précédent:
+                Projet: Coder le jeu de société Trains en Java
+            </a>
+        </p>
+        <p class="prev-post-date">
+            1 février, 2024
+        </p>
     </div>
     
-    <footer>
-      
 
+    
+    <div class="next-post">
+        <p>
+            <a href="/posts/siteventephp/">
+                Suivant:
+                Projet: Site de Vente en Php
+                &#8594;
+            </a>
+        </p>
+            <p class="next-post-date">
+                1 octobre, 2024
+            </p>
+    </div>
+    
+</nav>
 
-  
+            
+        
+    </div>
 
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
 
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
 
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="req-js">
-  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#4a86e8" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#4a86e8"><option value="#1f676b"><option value="#f3a530"><option value="#902b37"><option value="#1dbc91"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"></datalist>
+    
+    
 </div>
 
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#analyse-et-conception">Analyse et Conception</a></li>
+        <li><a href="#développement">Développement</a></li>
+        <li><a href="#statistiques">Statistiques</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
 
 
 
+    
 
-    </footer>
-
+        </main><footer class="footer">
     
     
 
-  </body>
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2024 Samuel GOUBY</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
 </html>

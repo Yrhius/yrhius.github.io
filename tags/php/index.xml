@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Portfolio Samuel GOUBY</title>
+    <link>http://localhost:1313/tags/php/</link>
+    <description>Recent content in Php on Portfolio Samuel GOUBY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: Site de Vente en Php</title>
+      <link>http://localhost:1313/posts/siteventephp/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/siteventephp/</guid>
+      <description>Introduction Lors de ma formation, j&amp;rsquo;ai eu la chance de créer mon propre site web dynamique à l&amp;rsquo;aide de Php. Avec deux autres camarades, j&amp;rsquo;ai imaginé et conçu un site de vente en ligne de sweats. Le site a une partie back-end avec une base de données contenant les informations des marchandises et une partie front-end qui gère l&amp;rsquo;affichage dynamique des informations.&#xA;Analyse Les fonctionnalités nécessaires sont les suivantes :</description>
+    </item>
+  </channel>
+</rss>

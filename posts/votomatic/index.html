@@ -1,361 +1,241 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="dark">
-  <head prefix="og: http://ogp.me/ns#">
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.147.6">
-<meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 1.1rem;
+        }
+    </style>
 
-
-<title>4. Projet: Une application de vote</title>
-
-
-
-
-
-<meta name="robots" content="index follow">
-
-
-
-
-  
-    <link rel="canonical" href="https://yrhius.github.io/posts/votomatic/">
-  
-
-
-
-
-
-
-
-
-<meta property="og:site_name" content="Portfolio Samuel GOUBY">
-<meta property="og:title" content="4. Projet: Une application de vote">
-
-  <meta property="og:url" content="https://yrhius.github.io/posts/votomatic/">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <meta property="og:type" content="article">
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="theme-color" content="#222">
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebSite",
-        "@id": "https://yrhius.github.io/"
-      },
-      "headline": "4. Projet: Une application de vote",
-      "description": "",
-      
-      "url": "https://yrhius.github.io/posts/votomatic/",
-      "inLanguage": "en",
-      
-      
-      "wordCount" : "1526",
-      "publisher": {
-        "@type": "Person",
-        "name": ""
-      },
-      "author": {
-        "@type": "Person",
-        "name": "",
-        
-        "sameAs": ["https://github.com/yrhius","https://www.linkedin.com/in/samuel-gouby"]
-      }
-    }
-  </script>
-
-
-
-
-
-
-<link rel="stylesheet" href="https://yrhius.github.io/css/main.min.6d13374744675dde1cf540e161977fd825c4ea15624061069e20e04fc8cdbf4e.css" integrity="sha256-bRM3R0RnXd4c9UDhYZd/2CXE6hViQGEGniDgT8jNv04=" crossorigin="anonymous">
-
-
-
-<noscript>
-
-  
-  
-
-  
-    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: light)">
-  
-
-  
-  <link rel="stylesheet" href="https://yrhius.github.io/css/noscript.min.d9a821bc75ee181f388c95acd3882f6afa28856db57b4bf1644f978495f2e376.css" integrity="sha256-2aghvHXuGB84jJWs04gvavoohW21e0vxZE&#43;XhJXy43Y=" crossorigin="anonymous">
-
-</noscript>
-
-
-
-<link rel="preload" href="/fonts/open-sans-v34-latin-700.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-italic.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-regular.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/oswald-v29-latin-700.woff2" as="font" crossorigin="anonymous">
-
-
-
-
-
-<link rel="me" href="https://github.com/yrhius">
-<link rel="me" href="https://www.linkedin.com/in/samuel-gouby">
-
-
-
-<script src="https://yrhius.github.io/js/main.66f76ab17d847cc7b1a7c09ba268a1c6afe55b35d551101bda8ff79888b3df1a.js" integrity="sha256-ZvdqsX2EfMexp8Cbomihxq/lWzXVURAb2o/3mIiz3xo=" crossorigin="anonymous"></script>
-
-  </head>
-
-  <body>
-
-    <header>
-      
-
-  <a href="/">Portfolio Samuel GOUBY</a>
-
-
-
-
-
-    </header>
-
-    <div class="filler">
-      
-
-  <main>
-    <article data-pagefind-body>
-      <header>
-        
-        <h1>4. Projet: Une application de vote</h1>
-
-        
-        
-        
-        
-      </header>
     
-      
-      
+    
+    
+    
+    
+    
 
+    
+    <title>Projet: Une application de vote</title>
+    <meta name="description" content="application complexe de vote chiffré">
+    <meta name="keywords" content='portfolio, informatique, système, réseau, Samuel, Gouby, étudiant, Montpellier, BDD, Java, sécurité, GUI, math, modélisation, ProgObjet'>
 
+    <meta property="og:url" content="http://localhost:1313/posts/votomatic/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projet: Une application de vote">
+    <meta property="og:description" content="application complexe de vote chiffré">
+    <meta property="og:image" content="http://localhost:1313/images/pdp.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/images/pdp.png">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Projet: Une application de vote">
+    <meta name="twitter:description" content="application complexe de vote chiffré">
+    <meta property="twitter:domain" content="http://localhost:1313/posts/votomatic/">
+    <meta property="twitter:url" content="http://localhost:1313/posts/votomatic/">
+    <meta name="twitter:image" content="http://localhost:1313/images/pdp.png">
 
+    
+    <link rel="canonical" href="http://localhost:1313/posts/votomatic/">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
 
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
 
+    
+    <script src="/js/bundle.min.a036ebe92c17ea3f0c07761c2135b82bec6f37c8efb7f49ddad1f28c22fc4769.js" integrity="sha256-oDbr6SwX6j8MB3YcITW4K&#43;xvN8jvt/Sd2tHyjCL8R2k="></script>
 
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
 
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/pdp.png' alt="ma photo de profil">
+            </a>
+        </div>
+        
 
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">Portfolio Samuel GOUBY</a>
+        </div>
 
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/aboutme/mapresentation" aria-label="" > About Me </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/" aria-label="" > Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Yrhius" aria-label="github" ><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://www.linkedin.com/in/samuel-gouby" aria-label="linkedin" ><span data-feather='linkedin'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/scolar/apprentissage" aria-label="" > Scolaire </a>
+            </div>
+            
 
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
 
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
 
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/aboutme/mapresentation" > About Me </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/" > Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Yrhius" ><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/samuel-gouby" ><span data-feather='linkedin'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/scolar/apprentissage" > Scolaire </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
 
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Projet: Une application de vote</h1>
 
+        
 
+        
+	
+	
+	
+	
+        
 
+	
 
+	
 
+	
+          <small role="doc-subtitle">application complexe de vote chiffré</small>
+	
 
+	
+          <p class="post-date">
+              
 
+              1 juin, 2025
 
+              
+          </p>
+	
 
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/bdd">BDD</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/java">Java</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/s%C3%A9curit%C3%A9">sécurité</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/r%C3%A9seau">réseau</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/gui">GUI</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/math">math</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/mod%C3%A9lisation">modélisation</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/progobjet">ProgObjet</a></li>
+           
+         
+        </ul>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 id="introduction"><a class="anchor" href="#introduction" title='Anchor for: Introduction.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Introduction</h2> 
-
+    <div class="post-content">
+        <h2 id="introduction">Introduction</h2>
 <p>De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement.
 Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous. Il serait alors sensé que de vouloir une application créée spécialement pour soi, répondant précisément à nos exigences. C’est là le but de notre projet, créer une application de sondage anonyme selon des critères bien définis.
 Notre projet permet donc de répondre au besoin de notre client. Celui-ci est un patron d’entreprise, il souhaite pouvoir récolter les avis de ses employés sur certaines questions/décisions importantes concernant l’entreprise. Il aimerait pour cela disposer d’une application permettant de gérer ses questions sous forme de votes cryptés et sécurisés. C’est pourquoi il a fait appel à notre équipe de développeurs.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="developpement"><a class="anchor" href="#developpement" title='Anchor for: Developpement.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Developpement</h2> 
-
+<h2 id="developpement">Developpement</h2>
 <p>Notre projet s&rsquo;est développé en plusieurs parties : l&rsquo;analyse, la conception puis la production.</p>
 <p>La première étape de notre projet consiste à se renseigner sur le milieu dans lequel notre projet se situe, d’un point vue légale ou bien marketing, savoir ce qu’il se fait déjà, ce qu’on peut faire. Mais il faut également bien cerner notre propre projet, être sur des attendus du client des contraintes qu’il nous impose, mais aussi des contraintes techniques que nous avons (nos outils, nos effectifs, nos connaissances).</p>
 <p>Une fois l’analyse terminée, nous avions tous le projet en tête. Nous connaissions les fonctionnalités principales, mais également les petits détails importants à prendre en compte. Cependant, avant de commencer à développer de l’application, il nous fallait l’imaginer, concevoir son architecture et ses différentes parties. Durant cette phase de conception, nous nous sommes basées sur notre analyse de l’existant, mais également sur nos connaissances et notre expérience pour choisir la meilleure architecture possible.</p>
 <p>Il apparaît vite que cette application se compose en réalité de deux applications distinctes : une cliente et un serveur. L’application serveur a besoin de communiquer avec les applications, mais également de communiquer avec une base de données. Tandis que l’application cliente a besoin de communiquer uniquement avec le serveur, mais elle a besoin d’une interface graphique pour les futurs utilisateurs de l’application. Nous avons longuement hésité à faire 3 types d’application cliente (scrutateur, électeur, administrateur), mais nous avons finalement opté pour une seule application cliente divisée en trois sous-parties.</p>
-<p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Interface_Admin.png"
-          alt="mon CV"
-        />
-      
-    
-    
-  
-  
-
-</p>
+<p><img src="/images/Interface_Admin.png" alt="mon CV"></p>
 <p>La base de données nous est indispensable, elle permet de simplifier beaucoup de choses et de stocker de façon durable les diverses informations de notre application. En effet, la base de données permet de stocker les différents sondages, les différents utilisateurs et savoir qui a voté sur quel référendum. La table CLIENT contient les informations du client tel que son identifiant et son mot de passe crypté qui nous permet de vérifier l&rsquo;identité d&rsquo;un utilisateur à travers une page de connexion. Cette table nous permet également de savoir si le client est électeur, scrutateur ou administrateur. La table REFERENDUM recense les données des référendums ; leur identifiant, leur description (la question qui a été posée), la date de fin de vote, mais également le nombre de votes et le Résultat chiffré et celui déchiffré quand le référendum est fini.
 Enfin une troisème table AVOTE permet de relier les deux table précédente et nous permet de savoir si le client 1 a voté au referendum A ou B, de sorte a ce qu&rsquo;aucun électeur ne puisse répondre plusieurs fois au même sondage.</p>
-<p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Vote.png"
-          alt="mon CV"
-        />
-      
-    
-    
-  
-  
-
-</p>
+<p><img src="/images/Vote.png" alt="mon CV"></p>
 <p>Le protocole de communication entre le serveur et le client est basé sur du TCP/IP. La connexion est aussi chiffrée de manière transparente avec du TLS pour plus de sécurité. Le serveur suit ces étapes :
 Le serveur charge sa clé privée pour la connexion TLS
 Le serveur comment à écouter les connexions entrantes
@@ -363,49 +243,7 @@ Lorsqu’un client se connecte, il envoie un ID de paquet qui correspond à une 
 Le client et le serveur échangent des données liées à l’action que le client souhaite faire (si le client veut voir un vote, il envoie l’identifiant du vote par exemple.). À ce moment-là, le serveur peut communiquer avec sa base de données si nécessaire.
 Lorsque l’action est finie, la connexion est coupée. Si le client souhaite faire une autre action, alors il doit se reconnecter et renvoyer un paquet.
 Il existe plusieurs types de paquets différents pour chaque action possible qu’un client puisse faire.</p>
-<p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Resultat.png"
-          alt="mon CV"
-        />
-      
-    
-    
-  
-  
-
-</p>
+<p><img src="/images/Resultat.png" alt="mon CV"></p>
 <p>Nous avons utilisé Thymeleaf avec Spring MVC pour une intégration cohérente entre le front et la logique métier.
 Les entités principales sont :
 Utilisateur : Acteurs interagissant avec le système (administrateur, scrutateur et électeurs).
@@ -418,17 +256,7 @@ Règle d&rsquo;interaction :
 Administrateur : Gestion utilisateur, création de votes
 Scrutateur : Gestion du chiffrement des votes
 Électeur : Se contente de choisir un référendum et de voter</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="gestion-de-projet"><a class="anchor" href="#gestion-de-projet" title='Anchor for: Gestion de projet.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Gestion de projet</h2> 
-
+<h2 id="gestion-de-projet">Gestion de projet</h2>
 <p>Afin d’organiser notre travail, nous avons choisi d’adopter la méthode agile pour contrôler le flux de travail de notre projet. Nous avons constitué une équipe avec un Product Owner (désormais PO), un Scrum Master et trois développeurs. Le PO, responsable de la vision du produit et de la gestion du backlog, a régulièrement communiqué avec le client, ce qui nous a permis de garder une charge de travail relativement maîtrisée durant les différents sprints.</p>
 <p>Quelques dates importantes:
 Début septembre: lancement du projet
@@ -436,68 +264,125 @@ Début septembre: lancement du projet
 16/10/24: rendu de sprint 1, marque le début du sprint 2
 12/11/24: rendu de sprint 2, marque le début du sprint 3
 9/12/24: rendu de sprint 3, marque le début du sprint 4, le sprint final
-09/01/25: livraison du projet</p>
+09/01/25: livraison d&rsquo;une première version du projet
+01/06/25: livraison d&rsquo;une version plus poussée et sécurisée</p>
 <p>Nous avons utilisé GitLab pour notre prochain. Nous avons créé les User stories sous forme d’Issues que nous avons pu attribuer à chacun et trier selon des labels comme l’état de la user story, sur quoi elle porte, son effort, etc. Nous avons pu créer différentes branches, afin de séparer notre travail et de pouvoir travailler sur plusieurs Users stories en même temps sans se gêner les uns les autres. Voici différentes branches qui ont été créées au cours du projet.</p>
 <p>De manière générale, une branche est créée à chaque nouvelle user story. Une fois une fonctionnalité terminée, une merge request est faite. Le Scrum Master(SM) et le Product Owner vérifient le code produit et valide la requête si tout va bien. Par exemple : Alexis a modifié le code de l’application serveur afin de respecter les principes SOLID. Pour cela, il a créé une branche, il a ensuite travaillé dessus en effectuant des commits réguliers. Une fois son travail fini, il crée une merge request et l’assigne à Samuel le SM. Samuel se connecte un peu plus tard, étudie le code produit et valide la merge request. Lors d’un push, grâce à la CI, la pipeline est exécutée nous permettant de voir facilement si le code qui va être merge est viable ou non.</p>
 <p>En parallèle, nous avons utilisé google drive, afin de partager au sein du groupe de nombreux documents. Nous avons notamment rédigé des traces de communication, pour chaque sprint nous avons un fichier contenant les différentes traces des daily meeting ainsi que de la rétrospective de sprint. Nous avons également les documents de prise de notes lors des entretiens avec le client et un document comportant l’ensemble des questions que nous avons eu besoin de poser à ce dernier.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="conclusion"><a class="anchor" href="#conclusion" title='Anchor for: Conclusion.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Conclusion</h2> 
-
+<h2 id="conclusion">Conclusion</h2>
 <p>Ce projet m&rsquo;a permis d&rsquo;apprendre beaucoup de choses et d&rsquo;approfondir mes connaissances. D’une part, j&rsquo;ai renforcé nmes connaissances en java, sql ou encore en html. D’une autre part, j&rsquo;ai appris de nouvelles technologies et framework : l’utilisation de Spring pour gérer une interface graphique, l’utilisation de jdbc pour interagir avec une base de données dans une application java ou encore l’utilisation des Sockets en java sans oublier docker. Ce projet a également été l’occasion de mettre en pratique des connaissances vu uniquement en cours. En effet, j&rsquo;ai pu mettre en pratique dans un cas concret mes compétences SOLID et certains patterns de GOF.</p>
 <p>La méthode agile m&rsquo;a permis de découvrir une nouvelle façon de travailler. Elle nous a permis de garder une direction et un suivi de projet cohérent avec les attentes du client. En effet, le principe des sprints et de suivi continu nous permet de garder une communication régulière et concise. De plus, en tant que Scrum Master, j&rsquo;ai joué un rôle majeur dans la communication de l&rsquo;équipe. J&rsquo;ai favorisé les échanges entre les membres du groupe et j&rsquo;ai essayé d&rsquo;instaurer le plus possible un climat propice à l&rsquo;épanouissement de chacun au sein de notre équipe.</p>
 <p>N&rsquo;hésitez pas à consulter notre rapport de projet pour en apprendre davantage.</p>
 <p><a href="https://docs.google.com/document/d/1hyIf02A4aEvFCnX3DevLNIpdkuVqPVxGG6C9iTvt1c4/edit?usp=sharing">Rapport de projet</a></p>
 
+        
+    </div>
 
-
-    </article>
-  </main>
-
-
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
+    
+    <div class="prev-post">
+        <p>
+            <a href="/posts/stage/">
+                &#8592;
+                Précédent:
+                Mon Stage au Pole numérique et données de la ville de Montpellier
+            </a>
+        </p>
+        <p class="prev-post-date">
+            27 janvier, 2025
+        </p>
     </div>
     
-    <footer>
-      
 
+    
+</nav>
 
-  
+            
+        
+    </div>
 
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
 
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
 
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="req-js">
-  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#4a86e8" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#4a86e8"><option value="#1f676b"><option value="#f3a530"><option value="#902b37"><option value="#1dbc91"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"></datalist>
+    
+    
 </div>
 
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#developpement">Developpement</a></li>
+        <li><a href="#gestion-de-projet">Gestion de projet</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
 
 
 
+    
 
-    </footer>
-
+        </main><footer class="footer">
     
     
 
-  </body>
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2025 Samuel GOUBY</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
 </html>

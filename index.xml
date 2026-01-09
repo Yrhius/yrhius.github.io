@@ -2,131 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio Samuel GOUBY</title>
-    <link>https://yrhius.github.io/</link>
-    <description></description>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Portfolio Samuel GOUBY</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://yrhius.github.io/index.xml" rel="self" type="application/rss+xml" />
-      <item>
-        <title>1. Me connaître</title>
-        <link>https://yrhius.github.io/posts/mapresentation/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/mapresentation/</guid>
-        <description>&lt;h2 id=&#34;en-apprendre-plus-sur-moi&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#en-apprendre-plus-sur-moi&#34; title=&#39;Anchor for: En apprendre plus sur moi:.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; En apprendre plus sur moi:&lt;/h2&gt; 
-
-&lt;p&gt;Je m&amp;rsquo;appelle Samuel GOUBY, je suis étudiant en Informatique à Montpellier à la recherche d’une alternance. Cette recherche s’inscrit pleinement dans mon objectif d’avenir: obtenir un Master en Cybersécurité.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  &lt;h4 id=&#34;mes-compétences&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mes-compétences&#34; title=&#39;Anchor for: Mes compétences:.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Mes compétences:&lt;/h4&gt; 
-
-&lt;p&gt;Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu renforcer à travers divers projets dans mon cursus. En accord avec mon objectif, je développe des compétences en système et réseaux, tel que l’utilisation de Linux, la virtualisation, la maîtrise du C, la communication entre machine. J’ai pu approfondir certaines de ces compétences(supervision web, configuration de switch…)  lors de mon stage au sein du Pôle Numérique et données de la ville de Montpellier en tant que Technicien Système et Réseau. Enfin je sais également développer dans d’autres langages orientés web comme HTML, CSS et PHP.&lt;/p&gt;</description>
-      </item>
-    
-      <item>
-        <title>2. Mon portfolio d&#39;apprentissage</title>
-        <link>https://yrhius.github.io/posts/apprentissage/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/apprentissage/</guid>
-        <description>&lt;p&gt;Dans cette partie, vous trouverez les divers apprentissages critiques que j’ai pu développer en lien avec ma formation. Ces apprentissages sont essentiels pour valider mon diplôme et devenir un informaticien compétent. Ils ont pu être appris et mis en pratique lors de projets universitaires, mais également en entreprise.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  &lt;h3 id=&#34;compétence-2-optimiser-sélectionner-les-algorithme-adéquats-pour-répondreà-un-problème-donné&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#compétence-2-optimiser-sélectionner-les-algorithme-adéquats-pour-répondreà-un-problème-donné&#34; title=&#39;Anchor for: Compétence 2: Optimiser, Sélectionner les algorithme adéquats pour répondre	à un problème donné.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Compétence 2: Optimiser, Sélectionner les algorithme adéquats pour répondre	à un problème donné&lt;/h3&gt; 
-
-&lt;p&gt;L’acquisition de cette compétence permet de différencier un simple codeur d’un véritable développeur. Depuis la première année du BUT, je suis sensible à la qualité de mon code et soucieux de faire un programme compréhensible, lisible et efficace. J’ai pu affiner cette compétence à travers divers apprentissages critiques.&lt;/p&gt;</description>
-      </item>
-    
-      <item>
-        <title>3. Mon Stage au Pole numérique et données de la ville de Montpellier</title>
-        <link>https://yrhius.github.io/posts/stage/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/stage/</guid>
-        <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34; title=&#39;Anchor for: Introduction:.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Introduction:&lt;/h2&gt; 
-
-&lt;p&gt;Dans le cadre de ma formation, j’ai eu la chance de réaliser un stage au sein de la collectivité territoriale Montpellier Méditerranée Métropole. Ce stage a duré 8 semaines, du 3 février au 28 mars 2025, j’ai pu évoluer en tant que technicien réseaux et système. En effet, la ville de Montpellier dispose d’un Pôle Numérique et Données(PND) composé de diverses couches métiers allant de l&amp;rsquo;application au réseau en passant par la télécom, le système, et la sécurité. Elle a développé au fil des années un réseau de plus en plus important. L’ensemble des sites publics de la ville sont équipés d’appareils électroniques, et chaque agent utilise un ensemble de sites web, d&amp;rsquo;applications et d’équipements informatiques. Ce secteur évolue vite, il est donc nécessaire de maintenir les infrastructures, d’étendre le réseau à de nouveaux lieux et d’intervenir en cas d’incident.&lt;/p&gt;</description>
-      </item>
-    
-      <item>
-        <title>4. Projet: Une application de vote</title>
-        <link>https://yrhius.github.io/posts/votomatic/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/votomatic/</guid>
-        <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34; title=&#39;Anchor for: Introduction.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Introduction&lt;/h2&gt; 
-
-&lt;p&gt;De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement.
-Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous. Il serait alors sensé que de vouloir une application créée spécialement pour soi, répondant précisément à nos exigences. C’est là le but de notre projet, créer une application de sondage anonyme selon des critères bien définis.
-Notre projet permet donc de répondre au besoin de notre client. Celui-ci est un patron d’entreprise, il souhaite pouvoir récolter les avis de ses employés sur certaines questions/décisions importantes concernant l’entreprise. Il aimerait pour cela disposer d’une application permettant de gérer ses questions sous forme de votes cryptés et sécurisés. C’est pourquoi il a fait appel à notre équipe de développeurs.&lt;/p&gt;</description>
-      </item>
-    
-      <item>
-        <title>5. Projet: Site de Vente en Php</title>
-        <link>https://yrhius.github.io/posts/siteventephp/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/siteventephp/</guid>
-        <description>&lt;h2 id=&#34;introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#introduction&#34; title=&#39;Anchor for: Introduction.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Introduction&lt;/h2&gt; 
-
-&lt;p&gt;Lors de ma formation, j&amp;rsquo;ai eu la chance de créer mon propre site web dynamique à l&amp;rsquo;aide de Php. Avec deux autres camarades, j&amp;rsquo;ai imaginé et conçu un site de vente en ligne de sweats. Le site a une partie back-end avec une base de données contenant les informations des marchandises et une partie front-end qui gère l&amp;rsquo;affichage dynamique des informations.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  &lt;h2 id=&#34;analyse&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#analyse&#34; title=&#39;Anchor for: Analyse.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Analyse&lt;/h2&gt; 
-
-&lt;p&gt;Les fonctionnalités nécessaires sont les suivantes :&lt;/p&gt;</description>
-      </item>
-    
-      <item>
-        <title>6. Projet: Coder le jeu de société Trains en Java</title>
-        <link>https://yrhius.github.io/posts/trains/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/trains/</guid>
-        <description>&lt;p&gt;Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de coder Trains en binome avec un collège.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  &lt;h2 id=&#34;présentation-du-jeu&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#présentation-du-jeu&#34; title=&#39;Anchor for: Présentation du jeu.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;https://yrhius.github.io/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Présentation du jeu&lt;/h2&gt; 
-
-&lt;p&gt;Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !&lt;/p&gt;</description>
-      </item>
-    
-      <item>
-        <title>7. Projet: La base de données de Spotify</title>
-        <link>https://yrhius.github.io/posts/basededonn%C3%A9es/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://yrhius.github.io/posts/basededonn%C3%A9es/</guid>
-        <description>&lt;p&gt;Vous êtes-vous déjà demandé à quoi ressemble la base de données d&amp;rsquo;une grande entreprise mondiale ? Nous oui !&lt;/p&gt;
-&lt;p&gt;Lors de ma première année de BUT informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de creuser cette question à travers le cas de spotify. En effet, nous avons reçu plusieurs fichiers Excel contenant des milliers d&amp;rsquo;information provenant de la base de données de Spotify ou plus exactement des fausse donnée qui pourrait venir de cette entreprise. Avec l&amp;rsquo;aide de trois autres camarades, nous avons imaginé et conçu une base de données permettant de contenir ces données de la façon la plus optimisée. Nous avons ensuite inséré les données, écrit une succession de requêtes pour récolter des informations sur cette masse donnée. Enfin, nous avons exploité les données récupérées par nos requêtes pour faire diverses statistiques sur Spotify et ses utilisateurs.&lt;/p&gt;</description>
-      </item>
-    
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: Une application de vote</title>
+      <link>http://localhost:1313/posts/votomatic/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/votomatic/</guid>
+      <description>Introduction De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement. Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous.</description>
+    </item>
+    <item>
+      <title>Mon Stage au Pole numérique et données de la ville de Montpellier</title>
+      <link>http://localhost:1313/posts/stage/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/stage/</guid>
+      <description>Introduction: Dans le cadre de ma formation, j’ai eu la chance de réaliser un stage au sein de la collectivité territoriale Montpellier Méditerranée Métropole. Ce stage a duré 8 semaines, du 3 février au 28 mars 2025, j’ai pu évoluer en tant que technicien réseaux et système. En effet, la ville de Montpellier dispose d’un Pôle Numérique et Données(PND) composé de diverses couches métiers allant de l&amp;rsquo;application au réseau en passant par la télécom, le système, et la sécurité.</description>
+    </item>
+    <item>
+      <title>Projet: Site de Vente en Php</title>
+      <link>http://localhost:1313/posts/siteventephp/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/siteventephp/</guid>
+      <description>Introduction Lors de ma formation, j&amp;rsquo;ai eu la chance de créer mon propre site web dynamique à l&amp;rsquo;aide de Php. Avec deux autres camarades, j&amp;rsquo;ai imaginé et conçu un site de vente en ligne de sweats. Le site a une partie back-end avec une base de données contenant les informations des marchandises et une partie front-end qui gère l&amp;rsquo;affichage dynamique des informations.&#xA;Analyse Les fonctionnalités nécessaires sont les suivantes :</description>
+    </item>
+    <item>
+      <title>Projet: La base de données de Spotify</title>
+      <link>http://localhost:1313/posts/basededonn%C3%A9es/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/basededonn%C3%A9es/</guid>
+      <description>Vous êtes-vous déjà demandé à quoi ressemble la base de données d&amp;rsquo;une grande entreprise mondiale ? Nous oui !&#xA;Lors de ma première année de BUT informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de creuser cette question à travers le cas de spotify. En effet, nous avons reçu plusieurs fichiers Excel contenant des milliers d&amp;rsquo;information provenant de la base de données de Spotify ou plus exactement des fausse donnée qui pourrait venir de cette entreprise.</description>
+    </item>
+    <item>
+      <title>Projet: Coder le jeu de société Trains en Java</title>
+      <link>http://localhost:1313/posts/trains/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/trains/</guid>
+      <description>Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de coder Trains en binome avec un collège.&#xA;Présentation du jeu Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !</description>
+    </item>
+    <item>
+      <title>Me connaître</title>
+      <link>http://localhost:1313/aboutme/mapresentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/mapresentation/</guid>
+      <description>Je m&amp;rsquo;appelle Samuel GOUBY, je suis étudiant en Informatique à Montpellier, et alternant au sein de l&amp;rsquo;équipe DSI du CINES. Cette alternance s’inscrit pleinement dans mon objectif d’avenir: obtenir un Master en Cybersécurité.&#xA;Mes compétences: Je maîtrise pleinement SQL et PL/SQL ainsi que Java, des langages que j’ai pu renforcer à travers divers projets dans mon cursus. En accord avec mon objectif, je développe des compétences en système et réseaux, tel que l’utilisation de Linux, la virtualisation, la maîtrise du C, la communication entre machine.</description>
+    </item>
+    <item>
+      <title>Mon portfolio d&#39;apprentissage</title>
+      <link>http://localhost:1313/scolar/apprentissage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/scolar/apprentissage/</guid>
+      <description>Dans cette partie, vous trouverez les divers apprentissages critiques que j’ai pu développer en lien avec ma formation. Ces apprentissages sont essentiels pour valider mon diplôme et devenir un informaticien compétent. Ils ont pu être appris et mis en pratique lors de projets universitaires, mais également en entreprise.&#xA;Compétence 2: Optimiser, Sélectionner les algorithme adéquats pour répondre&#x9;à un problème donné L’acquisition de cette compétence permet de différencier un simple codeur d’un véritable développeur.</description>
+    </item>
   </channel>
 </rss>

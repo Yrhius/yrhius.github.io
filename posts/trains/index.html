@@ -1,432 +1,342 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="dark">
-  <head prefix="og: http://ogp.me/ns#">
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.147.6">
-<meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 1.1rem;
+        }
+    </style>
 
-
-<title>6. Projet: Coder le jeu de société Trains en Java</title>
-
-
-
-
-
-<meta name="robots" content="index follow">
-
-
-
-
-  
-    <link rel="canonical" href="https://yrhius.github.io/posts/trains/">
-  
-
-
-
-
-
-
-
-
-<meta property="og:site_name" content="Portfolio Samuel GOUBY">
-<meta property="og:title" content="6. Projet: Coder le jeu de société Trains en Java">
-
-  <meta property="og:url" content="https://yrhius.github.io/posts/trains/">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <meta property="og:type" content="article">
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="theme-color" content="#222">
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebSite",
-        "@id": "https://yrhius.github.io/"
-      },
-      "headline": "6. Projet: Coder le jeu de société Trains en Java",
-      "description": "",
-      
-      "url": "https://yrhius.github.io/posts/trains/",
-      "inLanguage": "en",
-      
-      
-      "wordCount" : "640",
-      "publisher": {
-        "@type": "Person",
-        "name": ""
-      },
-      "author": {
-        "@type": "Person",
-        "name": "",
-        
-        "sameAs": ["https://github.com/yrhius","https://www.linkedin.com/in/samuel-gouby"]
-      }
-    }
-  </script>
-
-
-
-
-
-
-<link rel="stylesheet" href="https://yrhius.github.io/css/main.min.6d13374744675dde1cf540e161977fd825c4ea15624061069e20e04fc8cdbf4e.css" integrity="sha256-bRM3R0RnXd4c9UDhYZd/2CXE6hViQGEGniDgT8jNv04=" crossorigin="anonymous">
-
-
-
-<noscript>
-
-  
-  
-
-  
-    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#4a86e8" media="(prefers-color-scheme: light)">
-  
-
-  
-  <link rel="stylesheet" href="https://yrhius.github.io/css/noscript.min.d9a821bc75ee181f388c95acd3882f6afa28856db57b4bf1644f978495f2e376.css" integrity="sha256-2aghvHXuGB84jJWs04gvavoohW21e0vxZE&#43;XhJXy43Y=" crossorigin="anonymous">
-
-</noscript>
-
-
-
-<link rel="preload" href="/fonts/open-sans-v34-latin-700.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-italic.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-regular.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/oswald-v29-latin-700.woff2" as="font" crossorigin="anonymous">
-
-
-
-
-
-<link rel="me" href="https://github.com/yrhius">
-<link rel="me" href="https://www.linkedin.com/in/samuel-gouby">
-
-
-
-<script src="https://yrhius.github.io/js/main.66f76ab17d847cc7b1a7c09ba268a1c6afe55b35d551101bda8ff79888b3df1a.js" integrity="sha256-ZvdqsX2EfMexp8Cbomihxq/lWzXVURAb2o/3mIiz3xo=" crossorigin="anonymous"></script>
-
-  </head>
-
-  <body>
-
-    <header>
-      
-
-  <a href="/">Portfolio Samuel GOUBY</a>
-
-
-
-
-
-    </header>
-
-    <div class="filler">
-      
-
-  <main>
-    <article data-pagefind-body>
-      <header>
-        
-        <h1>6. Projet: Coder le jeu de société Trains en Java</h1>
-
-        
-        
-        
-        
-      </header>
     
-      
-      
+    
+    
+    
+    
+    
 
+    
+    <title>Projet: Coder le jeu de société Trains en Java</title>
+    <meta name="description" content="jeux de société train codé en binome">
+    <meta name="keywords" content='portfolio, informatique, système, réseau, Samuel, Gouby, étudiant, Montpellier, ProgObjet, Java, GUI, math'>
 
+    <meta property="og:url" content="http://localhost:1313/posts/trains/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projet: Coder le jeu de société Trains en Java">
+    <meta property="og:description" content="jeux de société train codé en binome">
+    <meta property="og:image" content="http://localhost:1313/images/pdp.png">
+    <meta property="og:image:secure_url" content="http://localhost:1313/images/pdp.png">
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Projet: Coder le jeu de société Trains en Java">
+    <meta name="twitter:description" content="jeux de société train codé en binome">
+    <meta property="twitter:domain" content="http://localhost:1313/posts/trains/">
+    <meta property="twitter:url" content="http://localhost:1313/posts/trains/">
+    <meta name="twitter:image" content="http://localhost:1313/images/pdp.png">
 
+    
+    <link rel="canonical" href="http://localhost:1313/posts/trains/">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
 
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
 
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
 
+    
+    <script src="/js/bundle.min.a036ebe92c17ea3f0c07761c2135b82bec6f37c8efb7f49ddad1f28c22fc4769.js" integrity="sha256-oDbr6SwX6j8MB3YcITW4K&#43;xvN8jvt/Sd2tHyjCL8R2k="></script>
 
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
 
+        
+        <div class="avatar">
+            <a href="http://localhost:1313/">
+                <img src='/images/pdp.png' alt="ma photo de profil">
+            </a>
+        </div>
+        
 
+        <div class="nav-title">
+            <a class="nav-brand" href="http://localhost:1313/">Portfolio Samuel GOUBY</a>
+        </div>
 
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/aboutme/mapresentation" aria-label="" > About Me </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/tags/" aria-label="" > Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Yrhius" aria-label="github" ><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://www.linkedin.com/in/samuel-gouby" aria-label="linkedin" ><span data-feather='linkedin'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="http://localhost:1313/scolar/apprentissage" aria-label="" > Scolaire </a>
+            </div>
+            
 
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
 
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
 
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/aboutme/mapresentation" > About Me </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/tags/" > Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Yrhius" ><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/samuel-gouby" ><span data-feather='linkedin'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="http://localhost:1313/scolar/apprentissage" > Scolaire </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
 
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Projet: Coder le jeu de société Trains en Java</h1>
 
+        
 
+        
+	
+	
+	
+	
+        
 
+	
 
+	
 
+	
+          <small role="doc-subtitle">jeux de société train codé en binome</small>
+	
 
+	
+          <p class="post-date">
+              
 
+              1 février, 2024
 
+              
+          </p>
+	
 
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/progobjet">ProgObjet</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/java">Java</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/gui">GUI</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="http://localhost:1313/tags/math">math</a></li>
+           
+         
+        </ul>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p>Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&rsquo;ai eu l&rsquo;occasion de coder Trains en binome avec un collège.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="présentation-du-jeu"><a class="anchor" href="#présentation-du-jeu" title='Anchor for: Présentation du jeu.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Présentation du jeu</h2> 
-
+    <div class="post-content">
+        <p>Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&rsquo;ai eu l&rsquo;occasion de coder Trains en binome avec un collège.</p>
+<h2 id="présentation-du-jeu">Présentation du jeu</h2>
 <p>Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !</p>
 <p>À son tour, un joueur commence par piocher 5 cartes de son paquet de cartes. Il peut ensuite jouer autant de cartes qu&rsquo;il le souhaite, acheter autant de cartes qu&rsquo;il souhaite puis ajoute dans sa défausse, les cartes jouée, achetée et inutilisée de sa main. Son tour est alors terminé, le joueur suivant pioche alors 5 cartes de sa propre pioche et ainsi de suite.</p>
 <p>La partie s&rsquo;arrête lorsque trois piles de cartes de la réserve ont été vidées ou lorsqu&rsquo;un joueur a posé tous ses pions rails.
 Le joueur qui cumule le plus de point victoire remporte la partie.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="implémentation-de-lalgorithmique"><a class="anchor" href="#implémentation-de-lalgorithmique" title='Anchor for: Implémentation de l&rsquo;algorithmique.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Implémentation de l&rsquo;algorithmique</h2> 
-
+<h2 id="implémentation-de-lalgorithmique">Implémentation de l&rsquo;algorithmique</h2>
 <p>Nous sommes parties sur un squelette de code fourni par l&rsquo;équipe enseignante. Ce squelette comprenait une interface graphique temporaire nous permettait de vérifier le bon fonctionnement de notre code.</p>
 <p>Il fallait dans un premier temps, coder chacune des cartes du jeu qui ont toutes un fonctionnement différent. Les cartes du jeu sont regroupées en plusieurs catégories, les cartes action, les cartes victoire, les cartes trains, les cartes rails. Nous avons donc créé une classe carte puis des classes abstraites pour chacun des types de cartes. Ensuite, chacune des cartes implémente l&rsquo;interface qui lui correspond. Ce qui nous donne l&rsquo;architecture suivante (seules quelques cartes ont été représenté sur le diagramme):</p>
-<p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-    
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Diagrammes-classes-cartes.png"
-          alt="diagramme de classes des cartes"
-        />
-      
-    
-    
-  
-  
-
-</p>
+<p><img src="/images/Diagrammes-classes-cartes.png" alt="diagramme de classes des cartes"></p>
 <p>Il a fallu ensuite coder le tour d&rsquo;un joueur pour qu&rsquo;il puisse jouer une carte qu&rsquo;il a en main, acheter une carte de la réserve seulement s&rsquo;il a l&rsquo;argent nécessaire. En clair toutes les actions possibles pour un joueur, mais également programmer la fin de partie le décompte des points et l&rsquo;affichage du classement final. Pour gérer les scores et gérer les cartes rails, nous avons dû appréhender le plateau de jeu fourni dans le squelette de code initial.</p>
 <p>Tout au long du projet, nous avons vérifié le bon fonctionnement des fonctionnalités du jeu notamment des cartes grâce à des tests unitaires. Mon camarade a créé un nombre conséquent de tests unitaires ce qui nous a permis de s&rsquo;assurer du bon déroulement de notre jeu.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="théorème-des-graphes"><a class="anchor" href="#théorème-des-graphes" title='Anchor for: Théorème des graphes.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> Théorème des graphes</h2> 
-
+<h2 id="théorème-des-graphes">Théorème des graphes</h2>
 <p>Dans un deuxième temps, nous avons pu, au travers de notre jeu, aborder un théorème mathématique très important en informatique : le théorème des graphes.</p>
 <p>En effet, le plateau de jeu est composé de plusieurs rangée de cases hexagonales. Chacun d&rsquo;entre elles peut être considéré comme un sommet, et ces cases sont reliées si elles contiennent un jeton rail. Une fois ce principe énoncé, nous pouvons appliquer tout un tas de théorèmes et de propriétés propre au graphe.</p>
 <p>Nous avons donc créé une classe Sommet puis une classe Graphe composé d&rsquo;une liste de sommets. Nous avons ensuite implémenté quelques algorithmes basiques comme &ldquo;estUnCycle&rdquo; ou &ldquo;estUneChaine&rdquo; qui renvoie vrai si le graphe est respectivement un cycle ou une chaîne. Puis, à l&rsquo;aide de ces petites fonctions nous avons pu développer des algorithmes plus complexe comme l&rsquo;algorithme des plus proches voisins ou l&rsquo;algorithme des 3 couleurs.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="linterface-graphique"><a class="anchor" href="#linterface-graphique" title='Anchor for: L&rsquo;interface graphique.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#hashtag"/></svg></a> L&rsquo;interface graphique</h2> 
-
+<h2 id="linterface-graphique">L&rsquo;interface graphique</h2>
 <p>La dernière étape de ce projet a été de développer notre propre interface graphique. Nous avons développé cette interface avec java fx.
 Cette interface comporte un plateau de jeu, une réserve de carte, une interface joueur ainsi que des règles de jeu facilement accessible.
 Comme une image vaut mieux que mille mots, vous pouvez consulter la version final du projet sur mon github.</p>
-<p>
+<p><img src="/images/Trains.png" alt="Interface graphique Trains"></p>
 
+        
+    </div>
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
     
+
     
-    
-      
-      
-        <img
-          
-          loading="lazy"
-          src="/images/Trains.png"
-          alt="Interface graphique Trains"
-        />
-      
-    
-    
-  
-  
-
-</p>
-
-
-
-    </article>
-  </main>
-
-
+    <div class="next-post">
+        <p>
+            <a href="/posts/basededonn%C3%A9es/">
+                Suivant:
+                Projet: La base de données de Spotify
+                &#8594;
+            </a>
+        </p>
+            <p class="next-post-date">
+                1 mars, 2024
+            </p>
     </div>
     
-    <footer>
-      
+</nav>
 
+            
+        
+    </div>
 
-  
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
 
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
 
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="req-js">
-  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.da33911d81c166b51ecebab1058ddc58.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#4a86e8" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#4a86e8"><option value="#1f676b"><option value="#f3a530"><option value="#902b37"><option value="#1dbc91"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"></datalist>
+    
+    
 </div>
 
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#présentation-du-jeu">Présentation du jeu</a></li>
+        <li><a href="#implémentation-de-lalgorithmique">Implémentation de l&rsquo;algorithmique</a></li>
+        <li><a href="#théorème-des-graphes">Théorème des graphes</a></li>
+        <li><a href="#linterface-graphique">L&rsquo;interface graphique</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
 
 
 
+    
 
-    </footer>
-
+        </main><footer class="footer">
     
     
 
-  </body>
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2024 Samuel GOUBY</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
 </html>
