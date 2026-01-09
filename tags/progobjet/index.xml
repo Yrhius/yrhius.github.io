@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ProgObjet on Portfolio Samuel GOUBY</title>
-    <link>http://localhost:1313/tags/progobjet/</link>
+    <link>https://yrhius.github.io/tags/progobjet/</link>
     <description>Recent content in ProgObjet on Portfolio Samuel GOUBY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/progobjet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yrhius.github.io/tags/progobjet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projet: Une application de vote</title>
-      <link>http://localhost:1313/posts/votomatic/</link>
+      <link>https://yrhius.github.io/posts/votomatic/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/votomatic/</guid>
+      <guid>https://yrhius.github.io/posts/votomatic/</guid>
       <description>Introduction De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement. Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous.</description>
     </item>
     <item>
       <title>Projet: Coder le jeu de société Trains en Java</title>
-      <link>http://localhost:1313/posts/trains/</link>
+      <link>https://yrhius.github.io/posts/trains/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/trains/</guid>
+      <guid>https://yrhius.github.io/posts/trains/</guid>
       <description>Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de coder Trains en binome avec un collège.&#xA;Présentation du jeu Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !</description>
     </item>
   </channel>
