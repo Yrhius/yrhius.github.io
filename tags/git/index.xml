@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sécurité on Portfolio Samuel GOUBY</title>
-    <link>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</link>
-    <description>Recent content in Sécurité on Portfolio Samuel GOUBY</description>
+    <title>Git on Portfolio Samuel GOUBY</title>
+    <link>https://yrhius.github.io/tags/git/</link>
+    <description>Recent content in Git on Portfolio Samuel GOUBY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yrhius.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projet: Rustic, une solution de sauvegarde</title>
       <link>https://yrhius.github.io/posts/rustic/</link>
@@ -16,11 +16,11 @@
       <description>Une solution de sauvegarde à notre façon Lors de mon cours de cybersécurité, on a vu l’importance de sauvegarder ses données afin d’être prêt à toute éventualité et pouvoir facilement relancer son SI après une attaque même si nos données ont été bloquées. Grâce à un système de sauvegarde efficace et régulier, le risque de perdre ses données devient minime.&#xA;C’est pourquoi nous avons lancé ce projet, afin de créer notre propre solution de sauvegarde.</description>
     </item>
     <item>
-      <title>Alternance au sein de le DSI du CINES</title>
-      <link>https://yrhius.github.io/posts/alternance/</link>
-      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://yrhius.github.io/posts/alternance/</guid>
-      <description>Introduction Le BUT informatique permet d’effectuer sa troisième année en alternance, c’est une opportunité incroyable qui nous permet d’en apprendre plus sur le monde du travail et de mettre à profit nos apprentissages. J’ai la chance d’avoir réussi à trouver une alternance auprès du CINES (Centre Informatique National d’Enseignements Supérieurs).&#xA;Le CINES à trois grande missions : le Calcul Intensif : Des moyens exceptionnels à la disposition des chercheurs pour relever de grands défis scientifiques.</description>
+      <title>Projet: ETCD_like</title>
+      <link>https://yrhius.github.io/posts/etcd_like/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/etcd_like/</guid>
+      <description>Ce projet a été réalisé dans le cadre d&amp;rsquo;un cours de système de 3e année de BUT. Il a été conçu par 4 étudiant de l&amp;rsquo;IUT de Montpellier.&#xA;Ce projet met en place un système distribué de clé valeur, avec plusieurs nœuds serveur qui communiquent entre eux, stockent les données et communiquent avec le client qui souhaite ajouter, enlever ou lire des valeurs présente dans le sysème. Ce projet est divisé en trois étapes distinctes :</description>
     </item>
     <item>
       <title>Projet: Une application de vote</title>
@@ -30,18 +30,18 @@
       <description>Introduction De nos jours, la communication interne aux entreprises est primordiale. Nous le remarquons notamment via tous les logiciels de communications qui fluctuent sur le marché (Workplace, Jamespot, Zoom..). En tant que chef d’entreprise, réussir à collecter des informations pour pouvoir s’organiser est un des principaux piliers pour faire fonctionner son entreprise efficacement. Dès lors, les différentes manières de récupérer ces informations méritent un certain approfondissement. Bien que ces moyens de communication soient nombreux et diversifiés, ils sont aussi génériques et impersonnels car disponibles à tous.</description>
     </item>
     <item>
-      <title>Mon Stage au Pole numérique et données de la ville de Montpellier</title>
-      <link>https://yrhius.github.io/posts/stage/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://yrhius.github.io/posts/stage/</guid>
-      <description>Introduction: Dans le cadre de ma formation, j’ai eu la chance de réaliser un stage au sein de la collectivité territoriale Montpellier Méditerranée Métropole. Ce stage a duré 8 semaines, du 3 février au 28 mars 2025, j’ai pu évoluer en tant que technicien réseaux et système. En effet, la ville de Montpellier dispose d’un Pôle Numérique et Données(PND) composé de diverses couches métiers allant de l&amp;rsquo;application au réseau en passant par la télécom, le système, et la sécurité.</description>
-    </item>
-    <item>
       <title>Projet: Site de Vente en Php</title>
       <link>https://yrhius.github.io/posts/siteventephp/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://yrhius.github.io/posts/siteventephp/</guid>
       <description>Introduction Lors de ma formation, j&amp;rsquo;ai eu la chance de créer mon propre site web dynamique à l&amp;rsquo;aide de Php. Avec deux autres camarades, j&amp;rsquo;ai imaginé et conçu un site de vente en ligne de sweats. Le site a une partie back-end avec une base de données contenant les informations des marchandises et une partie front-end qui gère l&amp;rsquo;affichage dynamique des informations.&#xA;Analyse Les fonctionnalités nécessaires sont les suivantes :</description>
+    </item>
+    <item>
+      <title>Projet: Coder le jeu de société Trains en Java</title>
+      <link>https://yrhius.github.io/posts/trains/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/trains/</guid>
+      <description>Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&amp;rsquo;ai eu l&amp;rsquo;occasion de coder Trains en binome avec un collège.&#xA;Présentation du jeu Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&amp;rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&amp;rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !</description>
     </item>
   </channel>
 </rss>

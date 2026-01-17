@@ -18,26 +18,26 @@
     
 
     
-    <title>Projet: Coder le jeu de société Trains en Java</title>
-    <meta name="description" content="jeux de société train codé en binome">
-    <meta name="keywords" content='portfolio, informatique, système, réseau, Samuel, Gouby, étudiant, Montpellier, ProgObjet, Java, GUI, math, git'>
+    <title>Alternance au sein de le DSI du CINES</title>
+    <meta name="description" content="description de mon alternance de 3eme année">
+    <meta name="keywords" content='portfolio, informatique, système, réseau, Samuel, Gouby, étudiant, Montpellier, sécurité'>
 
-    <meta property="og:url" content="https://yrhius.github.io/posts/trains/">
+    <meta property="og:url" content="https://yrhius.github.io/posts/alternance/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Projet: Coder le jeu de société Trains en Java">
-    <meta property="og:description" content="jeux de société train codé en binome">
+    <meta property="og:title" content="Alternance au sein de le DSI du CINES">
+    <meta property="og:description" content="description de mon alternance de 3eme année">
     <meta property="og:image" content="https://yrhius.github.io/images/pdp.png">
     <meta property="og:image:secure_url" content="https://yrhius.github.io/images/pdp.png">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Projet: Coder le jeu de société Trains en Java">
-    <meta name="twitter:description" content="jeux de société train codé en binome">
-    <meta property="twitter:domain" content="https://yrhius.github.io/posts/trains/">
-    <meta property="twitter:url" content="https://yrhius.github.io/posts/trains/">
+    <meta name="twitter:title" content="Alternance au sein de le DSI du CINES">
+    <meta name="twitter:description" content="description de mon alternance de 3eme année">
+    <meta property="twitter:domain" content="https://yrhius.github.io/posts/alternance/">
+    <meta property="twitter:url" content="https://yrhius.github.io/posts/alternance/">
     <meta name="twitter:image" content="https://yrhius.github.io/images/pdp.png">
 
     
-    <link rel="canonical" href="https://yrhius.github.io/posts/trains/">
+    <link rel="canonical" href="https://yrhius.github.io/posts/alternance/">
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -156,7 +156,7 @@
 <main id="content">
     <div class="post container">
     <div class="post-header-section">
-        <h1>Projet: Coder le jeu de société Trains en Java</h1>
+        <h1>Alternance au sein de le DSI du CINES</h1>
 
         
 
@@ -172,14 +172,14 @@
 	
 
 	
-          <small role="doc-subtitle">jeux de société train codé en binome</small>
+          <small role="doc-subtitle">description de mon alternance de 3eme année</small>
 	
 
 	
           <p class="post-date">
               
 
-              1 février, 2024
+              1 septembre, 2025
 
               
           </p>
@@ -188,50 +188,39 @@
         <ul class="post-tags">
           
            
-             <li class="post-tag"><a href="https://yrhius.github.io/tags/progobjet">ProgObjet</a></li>
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/syst%C3%A8me">système</a></li>
            
          
            
-             <li class="post-tag"><a href="https://yrhius.github.io/tags/java">Java</a></li>
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/r%C3%A9seau">réseau</a></li>
            
          
            
-             <li class="post-tag"><a href="https://yrhius.github.io/tags/gui">GUI</a></li>
-           
-         
-           
-             <li class="post-tag"><a href="https://yrhius.github.io/tags/math">math</a></li>
-           
-         
-           
-             <li class="post-tag"><a href="https://yrhius.github.io/tags/git">git</a></li>
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/s%C3%A9curit%C3%A9">sécurité</a></li>
            
          
         </ul>
     </div>
 
     <div class="post-content">
-        <p>Lors de mon deuxième semestre de BUT Informatique à Montpellier, j&rsquo;ai eu l&rsquo;occasion de coder Trains en binome avec un collège.</p>
-<h2 id="présentation-du-jeu">Présentation du jeu</h2>
-<p>Trains est un jeu de société complexe mêlant jeu de plateau et jeu de cartes. Chaque joueur incarne une compagnie ferroviaire qui cherche à étendre son terrain d&rsquo;activité au Japon. Le but est donc de gagner des point de victoire en construisant des gares, en construisant des rails sur des villes et des points d&rsquo;intérêts ou encore en achetant des cartes victoire telle que des immeubles !</p>
-<p>À son tour, un joueur commence par piocher 5 cartes de son paquet de cartes. Il peut ensuite jouer autant de cartes qu&rsquo;il le souhaite, acheter autant de cartes qu&rsquo;il souhaite puis ajoute dans sa défausse, les cartes jouée, achetée et inutilisée de sa main. Son tour est alors terminé, le joueur suivant pioche alors 5 cartes de sa propre pioche et ainsi de suite.</p>
-<p>La partie s&rsquo;arrête lorsque trois piles de cartes de la réserve ont été vidées ou lorsqu&rsquo;un joueur a posé tous ses pions rails.
-Le joueur qui cumule le plus de point victoire remporte la partie.</p>
-<h2 id="implémentation-de-lalgorithmique">Implémentation de l&rsquo;algorithmique</h2>
-<p>Nous sommes parties sur un squelette de code fourni par l&rsquo;équipe enseignante. Ce squelette comprenait une interface graphique temporaire nous permettait de vérifier le bon fonctionnement de notre code.</p>
-<p>Il fallait dans un premier temps, coder chacune des cartes du jeu qui ont toutes un fonctionnement différent. Les cartes du jeu sont regroupées en plusieurs catégories, les cartes action, les cartes victoire, les cartes trains, les cartes rails. Nous avons donc créé une classe carte puis des classes abstraites pour chacun des types de cartes. Ensuite, chacune des cartes implémente l&rsquo;interface qui lui correspond. Ce qui nous donne l&rsquo;architecture suivante (seules quelques cartes ont été représenté sur le diagramme):</p>
-<p><img src="/images/Diagrammes-classes-cartes.png" alt="diagramme de classes des cartes"></p>
-<p>Il a fallu ensuite coder le tour d&rsquo;un joueur pour qu&rsquo;il puisse jouer une carte qu&rsquo;il a en main, acheter une carte de la réserve seulement s&rsquo;il a l&rsquo;argent nécessaire. En clair toutes les actions possibles pour un joueur, mais également programmer la fin de partie le décompte des points et l&rsquo;affichage du classement final. Pour gérer les scores et gérer les cartes rails, nous avons dû appréhender le plateau de jeu fourni dans le squelette de code initial.</p>
-<p>Tout au long du projet, nous avons vérifié le bon fonctionnement des fonctionnalités du jeu notamment des cartes grâce à des tests unitaires. Mon camarade a créé un nombre conséquent de tests unitaires ce qui nous a permis de s&rsquo;assurer du bon déroulement de notre jeu.</p>
-<h2 id="théorème-des-graphes">Théorème des graphes</h2>
-<p>Dans un deuxième temps, nous avons pu, au travers de notre jeu, aborder un théorème mathématique très important en informatique : le théorème des graphes.</p>
-<p>En effet, le plateau de jeu est composé de plusieurs rangée de cases hexagonales. Chacun d&rsquo;entre elles peut être considéré comme un sommet, et ces cases sont reliées si elles contiennent un jeton rail. Une fois ce principe énoncé, nous pouvons appliquer tout un tas de théorèmes et de propriétés propre au graphe.</p>
-<p>Nous avons donc créé une classe Sommet puis une classe Graphe composé d&rsquo;une liste de sommets. Nous avons ensuite implémenté quelques algorithmes basiques comme &ldquo;estUnCycle&rdquo; ou &ldquo;estUneChaine&rdquo; qui renvoie vrai si le graphe est respectivement un cycle ou une chaîne. Puis, à l&rsquo;aide de ces petites fonctions nous avons pu développer des algorithmes plus complexe comme l&rsquo;algorithme des plus proches voisins ou l&rsquo;algorithme des 3 couleurs.</p>
-<h2 id="linterface-graphique">L&rsquo;interface graphique</h2>
-<p>La dernière étape de ce projet a été de développer notre propre interface graphique. Nous avons développé cette interface avec java fx.
-Cette interface comporte un plateau de jeu, une réserve de carte, une interface joueur ainsi que des règles de jeu facilement accessible.
-Comme une image vaut mieux que mille mots, vous pouvez consulter la version final du projet sur mon github.</p>
-<p><img src="/images/Trains.png" alt="Interface graphique Trains"></p>
+        <h2 id="introduction">Introduction</h2>
+<p>Le BUT informatique permet d’effectuer sa troisième année en alternance, c’est une opportunité incroyable qui nous permet d’en apprendre plus sur le monde du travail et de mettre à profit nos apprentissages. J’ai la chance d’avoir réussi à trouver une alternance auprès du CINES (Centre Informatique National d’Enseignements Supérieurs).</p>
+<p><img src="/images/cines-logo.jpg" alt="Cines logo"></p>
+<p>Le CINES à trois grande missions :
+le Calcul Intensif : Des moyens exceptionnels à la disposition des chercheurs pour relever de grands défis scientifiques.
+l’Archivage: Une solution performante pour la conservation à long terme du patrimoine numérique des établissements
+l’Hébergement: L’expérience du CINES dans l’exploitation des environnements informatiques et la mutualisation de ses infrastructures exceptionnelles permettent d’accueillir dans ses salles machines les serveurs stratégiques de partenaires nationaux</p>
+<p>Si vous souhaitez en savoir plus sur le CINES: <a href="https://www.cines.fr/">https://www.cines.fr/</a></p>
+<p>Mon alternance s’effectue au sein de la DSI, en tant que technicien système et réseau. Je suis là pour aider mes collègues à gérer les nouvelles demandes, à appliquer les changements nécessaires pour respecter les nouvelles normes ou encore assurer le maintien en conditions opérationnelles des solutions existantes.</p>
+<h2 id="déployer-lemonldap">Déployer LemonLDAP</h2>
+<p><img src="/images/cines-lemonldap.png" alt="Logo lemonldap"></p>
+<p>Ma première mission au sein du CINES consiste à déployer et à tester la solution lemonldap afin de s’assurer qu&rsquo;elle réponde à nos besoins.</p>
+<p>En effet, le CINES à de nombreuses contraintes à respecter en tant qu’établissement public, mais aussi dû au fait qu’il héberge des données de santé et des données militaires. C’est pourquoi l’architecture réseau doit être modifiée et il est nécessaire de changer la répartition des services pour respecter la nouvelle architecture. Ces changements interviennent également au niveau du LDAP.</p>
+<p>Avant mon arrivée, le projet a été lancé et la solution lemonldap a été évoquée comme étant une solution capable de remplir les critères du nouvel LDAP. J’ai donc commencé mon alternance par me renseigner sur cette solution et l’installer manuellement sur une machine dédiée. Bien que je ne connaissais pas du tout ce service, je n’ai pas eu trop de problèmes avec l’installation manuelle, car il existe beaucoup de documentation à ce sujet.</p>
+<p>J’ai ensuite dû retranscrire toutes les étapes d’installation dans la forge Ansible. Cette partie a été bien plus longue pour diverses raisons. Tout d’abord, je ne connaissais pas du tout Ansible. J’ai donc lu beaucoup de documentation et regardé diverses vidéos afin de comprendre l’utilité de Ansible, comment il fonctionne et comment l’utiliser. Ensuite, le CINES utilise Ansible depuis longtemps, et cumule beaucoup de rôles et de playbook. L’infrastructure existante est conséquente et il m’a fallu du temps pour m’y habituer. Enfin, après avoir assimilé les concepts de base d’Ansible et avoir appris l’infrastructure du CINES, il fallait que j’améliore mes connaissances en YAML.</p>
+<p>Une fois l’installation faîte, il faut tester de connecter diverses applications à lemonldap afin de s’assurer que tout fonctionne comme prévu. Cette partie est encore en cours de réalisation.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Je suis très heureux d’évoluer au sein du CINES. Cet établissement possède des outils informatiques de qualité ainsi que des informaticiens compétents qui sont tous bienveillants et enclins à m’aider quand j’en ai besoin. Je suis certain que les mois à venir seront encore très instructifs et intéressants.</p>
 
         
     </div>
@@ -241,18 +230,31 @@ Comme une image vaut mieux que mille mots, vous pouvez consulter la version fina
             
                 <nav aria-label="Post navigation" class="post-navigation">
     
+    <div class="prev-post">
+        <p>
+            <a href="/posts/votomatic/">
+                &#8592;
+                Précédent:
+                Projet: Une application de vote
+            </a>
+        </p>
+        <p class="prev-post-date">
+            1 juin, 2025
+        </p>
+    </div>
+    
 
     
     <div class="next-post">
         <p>
-            <a href="/posts/basededonn%C3%A9es/">
+            <a href="/posts/etcd_like/">
                 Suivant:
-                Projet: La base de données de Spotify
+                Projet: ETCD_like
                 &#8594;
             </a>
         </p>
             <p class="next-post-date">
-                1 mars, 2024
+                1 octobre, 2025
             </p>
     </div>
     
@@ -298,10 +300,9 @@ Comme une image vaut mieux que mille mots, vous pouvez consulter la version fina
   <ul>
     <li>
       <ul>
-        <li><a href="#présentation-du-jeu">Présentation du jeu</a></li>
-        <li><a href="#implémentation-de-lalgorithmique">Implémentation de l&rsquo;algorithmique</a></li>
-        <li><a href="#théorème-des-graphes">Théorème des graphes</a></li>
-        <li><a href="#linterface-graphique">L&rsquo;interface graphique</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#déployer-lemonldap">Déployer LemonLDAP</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
       </ul>
     </li>
   </ul>
@@ -335,7 +336,7 @@ Comme une image vaut mieux que mille mots, vous pouvez consulter la version fina
     
 
     
-        <span>&copy; 2024 Samuel GOUBY</span>
+        <span>&copy; 2025 Samuel GOUBY</span>
     
 
     <span>

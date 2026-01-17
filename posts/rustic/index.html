@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+            --font-size: 1.1rem;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Projet: Rustic, une solution de sauvegarde</title>
+    <meta name="description" content="conception et réalisation d&#39;une solution de sauvegarde sécurisé en rust">
+    <meta name="keywords" content='portfolio, informatique, système, réseau, Samuel, Gouby, étudiant, Montpellier, rust, git, sécurité, crypto'>
+
+    <meta property="og:url" content="https://yrhius.github.io/posts/rustic/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projet: Rustic, une solution de sauvegarde">
+    <meta property="og:description" content="conception et réalisation d&#39;une solution de sauvegarde sécurisé en rust">
+    <meta property="og:image" content="https://yrhius.github.io/images/pdp.png">
+    <meta property="og:image:secure_url" content="https://yrhius.github.io/images/pdp.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Projet: Rustic, une solution de sauvegarde">
+    <meta name="twitter:description" content="conception et réalisation d&#39;une solution de sauvegarde sécurisé en rust">
+    <meta property="twitter:domain" content="https://yrhius.github.io/posts/rustic/">
+    <meta property="twitter:url" content="https://yrhius.github.io/posts/rustic/">
+    <meta name="twitter:image" content="https://yrhius.github.io/images/pdp.png">
+
+    
+    <link rel="canonical" href="https://yrhius.github.io/posts/rustic/">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+
+    
+    <link id="dark-theme" rel="stylesheet" href="/css/dark.min.css">
+
+    
+    <script src="/js/bundle.min.a036ebe92c17ea3f0c07761c2135b82bec6f37c8efb7f49ddad1f28c22fc4769.js" integrity="sha256-oDbr6SwX6j8MB3YcITW4K&#43;xvN8jvt/Sd2tHyjCL8R2k="></script>
+
+    
+    
+</head>
+<body>
+        <script>
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://yrhius.github.io/">
+                <img src='/images/pdp.png' alt="ma photo de profil">
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://yrhius.github.io/">Portfolio Samuel GOUBY</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://yrhius.github.io/aboutme/mapresentation" aria-label="" > About Me </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://yrhius.github.io/posts/" aria-label="" > Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://yrhius.github.io/tags/" aria-label="" > Tags </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://github.com/Yrhius" aria-label="github" ><span data-feather='github'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://www.linkedin.com/in/samuel-gouby" aria-label="linkedin" ><span data-feather='linkedin'></span>  </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://yrhius.github.io/scolar/apprentissage" aria-label="" > Scolaire </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                <a aria-hidden="true" role="switch">
+                    <span class="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+                <a aria-checked="false" aria-labelledby="hamburger-menu-toggle" id="hamburger-menu-toggle-target" role="switch">
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://yrhius.github.io/aboutme/mapresentation" > About Me </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://yrhius.github.io/posts/" > Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://yrhius.github.io/tags/" > Tags </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://github.com/Yrhius" ><span data-feather='github'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/samuel-gouby" ><span data-feather='linkedin'></span>  </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://yrhius.github.io/scolar/apprentissage" > Scolaire </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+                    <a role="switch">
+                        <span class="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Projet: Rustic, une solution de sauvegarde</h1>
+
+        
+
+        
+	
+	
+	
+	
+        
+
+	
+
+	
+
+	
+          <small role="doc-subtitle">conception et réalisation d&#39;une solution de sauvegarde sécurisé en rust</small>
+	
+
+	
+          <p class="post-date">
+              
+
+              1 novembre, 2025
+
+              
+          </p>
+	
+
+        <ul class="post-tags">
+          
+           
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/rust">rust</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/syst%C3%A8me">système</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/git">git</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/s%C3%A9curit%C3%A9">sécurité</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/crypto">crypto</a></li>
+           
+         
+           
+             <li class="post-tag"><a href="https://yrhius.github.io/tags/r%C3%A9seau">réseau</a></li>
+           
+         
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <h2 id="une-solution-de-sauvegarde-à-notre-façon">Une solution de sauvegarde à notre façon</h2>
+<p>Lors de mon cours de cybersécurité, on a vu l’importance de sauvegarder ses données afin d’être prêt à toute éventualité et pouvoir facilement relancer son SI après une attaque même si nos données ont été bloquées. Grâce à un système de sauvegarde efficace et régulier, le risque de perdre ses données devient minime.</p>
+<p>C’est pourquoi nous avons lancé ce projet, afin de créer notre propre solution de sauvegarde. Je me suis regroupé avec trois autres camarades pour s’entraider.</p>
+<p>Lien du projet <a href="https://github.com/Rustic-Backup/Rustic-IUT">https://github.com/Rustic-Backup/Rustic-IUT</a></p>
+<h3 id="analyse-et-conception">Analyse et conception</h3>
+<p>Nous avons décidé d’analyser ce qu’il se fait déjà afin de s’en inspirer. Nous avons ensuite tiré une liste de caractéristiques que nous souhaitions mettre dans notre programme. Voici une liste de features que nous souhaitions mettre en place :</p>
+<ul>
+<li>pouvoir sauvegarder sur un serveur distant</li>
+<li>pouvoir chiffrer les sauvegardes</li>
+<li>pouvoir garder plusieurs versions d’une sauvegarde</li>
+<li>pouvoir vérifier l’état de notre sauvegarde</li>
+<li>pouvoir lister toutes nos sauvegardes</li>
+<li>pouvoir avoir des informations sur nos sauvegardes(taille, date, compression etc)</li>
+</ul>
+<p>Lors de nos recherches, un camarade est tombé sur la solution de sauvegarde Restic. Leur solution nous a beaucoup plus bien qu’un peu trop complexe pour notre utilisation. Nous avons donc décidé de garder une partie de l’architecture du code, mais en le simplifiant et en l’implémentant en Rust.</p>
+<h3 id="documentation">Documentation</h3>
+<p>Rustic dispose des différentes commandes suivantes:</p>
+<ul>
+<li>backup: permet de sauvegarder les fichiers d’un dépôt</li>
+<li>check: vérifie l’intégrité d’une sauvegarde</li>
+<li>help: permet d’avoir des informations sur les diverses commandes et sur leur syntaxe</li>
+<li>init: permet de créer un dépôt pour pouvoir effectuer des sauvegardes</li>
+<li>list: permet de lister toutes nos sauvegardes</li>
+<li>prune: permet de supprimer une ou plusieurs sauvegardes</li>
+<li>restore: permet de récupérer une sauvegarde</li>
+<li>stats: affiche des informations sur une sauvegarde ou sur l’ensemble de nos sauvegardes</li>
+</ul>
+<p>Rustic comporte une cli documentée, toutefois, pour plus d’information vous pouvez vous référer au readme du projet.</p>
+<p><img src="/images/rustic-cli.png" alt="Rustic cli"></p>
+<h3 id="architecture-du-projet">Architecture du projet</h3>
+<p><img src="/images/rustic-archi.png" alt="Rustic architecture"></p>
+<p>Vous pouvez voir ci-dessus, les différents fichiers de code du projet.</p>
+<p>Le fichier <strong>cli.rs</strong>, gère l&rsquo;affichage graphique dans le terminal. Il permet d&rsquo;interpréter les entrées dans le terminal et d&rsquo;afficher des message d&rsquo;erreur ou de la documentation, si les entrées sont invalides.</p>
+<p>Le fichier <strong>main.rs</strong> est le coeur de notre projet, il reçoit les commandes venant de la cli et lance les fonctions adéquat. Ce fichier effectuer tout le setup de base de l&rsquo;application.</p>
+<p>Les fichier <strong>backup.rs</strong>, <strong>restore.rs</strong> et <strong>stats.rs</strong> gère respectivement la logique des commandes backup, restore et stat. Ces commandes nécessitant beaucoup de lignes de code elles ont été mis dans des fichiers séparés pour ne pas surcharger le main.</p>
+<p>Le fichier <strong>config.rs</strong>, gère la création et la lecture des fichier de configuration utiliser dans les dépots de sauvegardes.</p>
+<p>Le fichier <strong>error.rs</strong>, nous permet de générer différents type d&rsquo;erreur ainsi que des messages adaptés au problème. Certaines message d&rsquo;erreur sont la uniquement en cas de problème pour nous aider à debug et d&rsquo;autres sont la pour informer l&rsquo;utilisateur.</p>
+<p>Le fichier <strong>lib.rs</strong> permet à nos fichiers de codes de pouvoir utiliser les fonctions des autres fichiers.</p>
+<p>Le fichier <strong>network.rs</strong> gère la communication réseau de l&rsquo;application, notamment la connection ssh à un serveur distant de sauvegarde.</p>
+<p>Le fichier <strong>repository.rs</strong> est un point clé du projet, il contient tout la logique des dépots de sauvegarde, il va de paire avec le fichier versioning.rs.<br>
+Enfin le fichier versioning.rs gère les sauvegarde en elle même, et la possibilité d&rsquo;avoir plusieurs versions d&rsquo;une sauvegarde.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Ce projet est amené à évoluer dans le temps. Il m’a permis d’apprendre le Rust qui est un langage de plus en plus utilisé. J’ai également réalisé la complexité des logiciels de sauvegarde et l’importance d’effectuer des sauvegardes régulièrement. Ce projet m’a beaucoup plus, je l’ai trouvé particulièrement intéressant, car nous avons réellement conçu une solution qui pourrait être utilisée dans le monde professionnel.</p>
+
+        
+    </div>
+
+    <div class="prev-next">
+        
+            
+                <nav aria-label="Post navigation" class="post-navigation">
+    
+    <div class="prev-post">
+        <p>
+            <a href="/posts/etcd_like/">
+                &#8592;
+                Précédent:
+                Projet: ETCD_like
+            </a>
+        </p>
+        <p class="prev-post-date">
+            1 octobre, 2025
+        </p>
+    </div>
+    
+
+    
+</nav>
+
+            
+        
+    </div>
+
+    
+    
+        <svg id="btt-button" class="arrow-logo" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" onclick="scrollToTop()" title="Go to top">
+    
+    <path d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z"/>
+</svg>
+<script>
+    let backToTopButton = document.getElementById("btt-button");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        window.scrollTo(0, 0);
+    }
+</script>
+
+    
+    
+</div>
+
+<aside class="post-toc">
+    <nav id="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#une-solution-de-sauvegarde-à-notre-façon">Une solution de sauvegarde à notre façon</a>
+          <ul>
+            <li><a href="#analyse-et-conception">Analyse et conception</a></li>
+            <li><a href="#documentation">Documentation</a></li>
+            <li><a href="#architecture-du-projet">Architecture du projet</a></li>
+          </ul>
+        </li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </nav>
+</aside>
+
+
+
+    
+
+        </main><footer class="footer">
+    
+    
+
+    
+
+    
+
+        
+            
+        
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+        <span>&copy; 2025 Samuel GOUBY</span>
+    
+
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/gokarna-theme/gokarna-hugo">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

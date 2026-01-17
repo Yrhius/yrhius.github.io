@@ -3,7 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yrhius.github.io/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/crypto/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/git/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/posts/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/posts/rustic/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/r%C3%A9seau/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/rust/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/syst%C3%A8me/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/</loc>
+    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/c/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/tags/multithreads/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/posts/etcd_like/</loc>
+    <lastmod>2025-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yrhius.github.io/posts/alternance/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yrhius.github.io/tags/bdd/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
@@ -20,31 +59,16 @@
     <loc>https://yrhius.github.io/tags/mod%C3%A9lisation/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yrhius.github.io/posts/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yrhius.github.io/tags/progobjet/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yrhius.github.io/posts/votomatic/</loc>
     <lastmod>2025-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yrhius.github.io/tags/r%C3%A9seau/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yrhius.github.io/tags/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yrhius.github.io/posts/stage/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yrhius.github.io/tags/supervision/</loc>
-    <lastmod>2025-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yrhius.github.io/tags/syst%C3%A8me/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yrhius.github.io/tags/php/</loc>

@@ -6,8 +6,29 @@
     <description>Recent content in Réseau on Portfolio Samuel GOUBY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yrhius.github.io/tags/r%C3%A9seau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: Rustic, une solution de sauvegarde</title>
+      <link>https://yrhius.github.io/posts/rustic/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/rustic/</guid>
+      <description>Une solution de sauvegarde à notre façon Lors de mon cours de cybersécurité, on a vu l’importance de sauvegarder ses données afin d’être prêt à toute éventualité et pouvoir facilement relancer son SI après une attaque même si nos données ont été bloquées. Grâce à un système de sauvegarde efficace et régulier, le risque de perdre ses données devient minime.&#xA;C’est pourquoi nous avons lancé ce projet, afin de créer notre propre solution de sauvegarde.</description>
+    </item>
+    <item>
+      <title>Projet: ETCD_like</title>
+      <link>https://yrhius.github.io/posts/etcd_like/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/etcd_like/</guid>
+      <description>Ce projet a été réalisé dans le cadre d&amp;rsquo;un cours de système de 3e année de BUT. Il a été conçu par 4 étudiant de l&amp;rsquo;IUT de Montpellier.&#xA;Ce projet met en place un système distribué de clé valeur, avec plusieurs nœuds serveur qui communiquent entre eux, stockent les données et communiquent avec le client qui souhaite ajouter, enlever ou lire des valeurs présente dans le sysème. Ce projet est divisé en trois étapes distinctes :</description>
+    </item>
+    <item>
+      <title>Alternance au sein de le DSI du CINES</title>
+      <link>https://yrhius.github.io/posts/alternance/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/alternance/</guid>
+      <description>Introduction Le BUT informatique permet d’effectuer sa troisième année en alternance, c’est une opportunité incroyable qui nous permet d’en apprendre plus sur le monde du travail et de mettre à profit nos apprentissages. J’ai la chance d’avoir réussi à trouver une alternance auprès du CINES (Centre Informatique National d’Enseignements Supérieurs).&#xA;Le CINES à trois grande missions : le Calcul Intensif : Des moyens exceptionnels à la disposition des chercheurs pour relever de grands défis scientifiques.</description>
+    </item>
     <item>
       <title>Projet: Une application de vote</title>
       <link>https://yrhius.github.io/posts/votomatic/</link>

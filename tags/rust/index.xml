@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on Portfolio Samuel GOUBY</title>
+    <link>https://yrhius.github.io/tags/rust/</link>
+    <description>Recent content in Rust on Portfolio Samuel GOUBY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yrhius.github.io/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: Rustic, une solution de sauvegarde</title>
+      <link>https://yrhius.github.io/posts/rustic/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/rustic/</guid>
+      <description>Une solution de sauvegarde à notre façon Lors de mon cours de cybersécurité, on a vu l’importance de sauvegarder ses données afin d’être prêt à toute éventualité et pouvoir facilement relancer son SI après une attaque même si nos données ont été bloquées. Grâce à un système de sauvegarde efficace et régulier, le risque de perdre ses données devient minime.&#xA;C’est pourquoi nous avons lancé ce projet, afin de créer notre propre solution de sauvegarde.</description>
+    </item>
+  </channel>
+</rss>

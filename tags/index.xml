@@ -6,8 +6,64 @@
     <description>Recent content in Tags on Portfolio Samuel GOUBY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yrhius.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crypto</title>
+      <link>https://yrhius.github.io/tags/crypto/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://yrhius.github.io/tags/git/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Réseau</title>
+      <link>https://yrhius.github.io/tags/r%C3%A9seau/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/r%C3%A9seau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://yrhius.github.io/tags/rust/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sécurité</title>
+      <link>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Système</title>
+      <link>https://yrhius.github.io/tags/syst%C3%A8me/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/syst%C3%A8me/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>https://yrhius.github.io/tags/c/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multithreads</title>
+      <link>https://yrhius.github.io/tags/multithreads/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/tags/multithreads/</guid>
+      <description></description>
+    </item>
     <item>
       <title>BDD</title>
       <link>https://yrhius.github.io/tags/bdd/</link>
@@ -51,31 +107,10 @@
       <description></description>
     </item>
     <item>
-      <title>Réseau</title>
-      <link>https://yrhius.github.io/tags/r%C3%A9seau/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yrhius.github.io/tags/r%C3%A9seau/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sécurité</title>
-      <link>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://yrhius.github.io/tags/s%C3%A9curit%C3%A9/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Supervision</title>
       <link>https://yrhius.github.io/tags/supervision/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://yrhius.github.io/tags/supervision/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Système</title>
-      <link>https://yrhius.github.io/tags/syst%C3%A8me/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://yrhius.github.io/tags/syst%C3%A8me/</guid>
       <description></description>
     </item>
     <item>

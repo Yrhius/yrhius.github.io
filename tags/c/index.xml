@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on Portfolio Samuel GOUBY</title>
+    <link>https://yrhius.github.io/tags/c/</link>
+    <description>Recent content in C on Portfolio Samuel GOUBY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yrhius.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projet: ETCD_like</title>
+      <link>https://yrhius.github.io/posts/etcd_like/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://yrhius.github.io/posts/etcd_like/</guid>
+      <description>Ce projet a été réalisé dans le cadre d&amp;rsquo;un cours de système de 3e année de BUT. Il a été conçu par 4 étudiant de l&amp;rsquo;IUT de Montpellier.&#xA;Ce projet met en place un système distribué de clé valeur, avec plusieurs nœuds serveur qui communiquent entre eux, stockent les données et communiquent avec le client qui souhaite ajouter, enlever ou lire des valeurs présente dans le sysème. Ce projet est divisé en trois étapes distinctes :</description>
+    </item>
+  </channel>
+</rss>
